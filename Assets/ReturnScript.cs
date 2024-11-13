@@ -8,6 +8,8 @@ public class ReturnScript : MonoBehaviour
     [SerializeField] string SceneName;
     public void ReturnToMenu()
     {
-        SceneManager.UnloadScene(SceneName);
+        Debug.Log("GameDeloaded");
+        SceneManager.UnloadSceneAsync(SceneName);
     }
 }
+
