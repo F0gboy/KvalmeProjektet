@@ -9,7 +9,7 @@ public class SceneButtonScript : MonoBehaviour
     [SerializeField] string SceneName;
     public void ChangeScene()
     {
-        SceneManager.LoadScene(SceneName);
+        SceneManager.LoadScene(SceneName, LoadSceneMode.Additive);
     }
 
 }
