@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Farmakologi.unity
     guid: c5d5e9b08dd284641a64dcb685d50b75
+  - enabled: 1
+    path: Assets/Jasper Ting/ting.unity
+    guid: 2de5f347ed654e042a5005dd00f4a71e
   m_configObjects: {}
