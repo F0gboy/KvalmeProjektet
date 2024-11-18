@@ -144,7 +144,6 @@ namespace TMPro.Examples
                     //m_textMeshPro.text = label02;
                     yield return new WaitForSeconds(1.0f);
                     //m_textMeshPro.text = label01;
-                    yield return new WaitForSeconds(1.0f);
 
                     break;
                 }
