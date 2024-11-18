@@ -10,13 +10,16 @@ public class QuizSystem : MonoBehaviour
     // Start is called before the first frame update
 
     public List<string> RightAnswers = new List<string>();
+    public List<string> RightAnswersCopy = new List<string>();
     public List<string> WrongAnswers = new List<string>();
     public List<List<string>> AnswerLists = new List<List<string>>();
 
     public int Guesses;
+    private bool Correct;
 
     public Button[] Buttons;
     private static List<Button> ChosenButtons = new List<Button>();
+    public Button AnswerButton;
 
 
     void Start()
@@ -24,11 +27,40 @@ public class QuizSystem : MonoBehaviour
         AnswerLists.Add(RightAnswers);
         AnswerLists.Add(WrongAnswers);
 
+        RightAnswersCopy.AddRange(RightAnswers);
+
         ScatterAnswers();
 
         foreach (var button in Buttons)
         {
             button.onClick.AddListener(delegate { buttonClicked(button); });
+        }
+
+        AnswerButton.onClick.AddListener(delegate { CheckAnswers(); });
+    }
+
+    void CheckAnswers()
+    {
+        if (ChosenButtons.Count > 0 && ChosenButtons.Count == Guesses)
+        {
+            foreach (var answer in ChosenButtons)
+            {
+                TextMeshProUGUI TMP = answer.GetComponentInChildren<TextMeshProUGUI>();
+
+                if (RightAnswersCopy.Contains(TMP.text))
+                {
+                    answer.image.color = Color.green;
+                    Correct = true;
+                }
+                else
+                {
+                    answer.image.color = Color.red;
+
+                    Correct = false;
+                }
+            }
+
+            Debug.Log(Correct);
         }
     }
 
@@ -57,7 +89,6 @@ public class QuizSystem : MonoBehaviour
                 TempInt = 1;
             }
 
-
             if (TempInt == 1)
             {
                 tempText = RightAnswers[Random.Range(0, RightAnswers.Count)];
@@ -82,7 +113,7 @@ public class QuizSystem : MonoBehaviour
             {
                 Debug.Log("Added to List");
                 ChosenButtons.Add(currentButton);
-                currentButton.image.color = Color.green;
+                currentButton.image.color = Color.gray;
 
             }
             else
