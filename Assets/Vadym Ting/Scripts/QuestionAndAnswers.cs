@@ -1,8 +1,10 @@
 
+using System.Collections.Generic;
+
 [System.Serializable]
 public class QuestionAndAnsvers
 {
     public string Question;
     public string[] Answer;
-    public int CorrectAnswer;
+    public List<int> CorrectAnswer;
 }

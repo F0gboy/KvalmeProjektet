@@ -10,7 +10,9 @@ public class Question_Manager : MonoBehaviour
     public GameObject[] options;
     public int currentIndexQuestion;
     public Text questionPanelText;
-
+    private QuestionAndAnsvers questionAndAnsvers;
+    private int correctAnswersCount = 0; 
+    private int totalCorrectAnswers = 4;
     // Start is called before the first frame update
     void Start()
     {   
@@ -18,19 +20,33 @@ public class Question_Manager : MonoBehaviour
     }
     public void Correct()
     {
-        qNa.RemoveAt(currentIndexQuestion);
-        GenerateQuestion();
+        correctAnswersCount++;
+
+        if (correctAnswersCount >= totalCorrectAnswers)
+        {
+            if (qNa.Count > 0)
+            {
+                qNa.RemoveAt(currentIndexQuestion);
+                GenerateQuestion();
+            }
+        }
+       
     }
     private void SetAnwer()
     {
         for (int i = 0; i < options.Length; i++)
         {
-            options[i].GetComponent<AnswerScript>().isCorrect = false;
+          options[i].GetComponent<AnswerScript>().isCorrect = false;
           options[i].transform.GetChild(0).GetComponent<Text>().text = qNa[currentIndexQuestion].Answer[i];
-            if (qNa[currentIndexQuestion].CorrectAnswer == i+1)
-            {
-                options[i].GetComponent<AnswerScript>().isCorrect = true;
-            }
+          options[i].GetComponent<Image>().color = Color.white;
+
+
+            if (qNa[currentIndexQuestion].CorrectAnswer.Contains(i + 1))
+                {
+               
+                    options[i].GetComponent<AnswerScript>().isCorrect = true;
+                }
+            
         }
     }
     private void GenerateQuestion()
@@ -40,6 +56,7 @@ public class Question_Manager : MonoBehaviour
             currentIndexQuestion = Random.Range(0, qNa.Count);
             questionPanelText.text = qNa[currentIndexQuestion].Question;
             SetAnwer();
+            correctAnswersCount = 0;
         }
         else
         {

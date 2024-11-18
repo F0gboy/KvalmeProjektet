@@ -1642,7 +1642,7 @@ MonoBehaviour:
     - "Refrakt\xE6r kvalme og gennembrudskvalme"
     - Kronisk kvalme og opkastning
     - Uventet kvalme og opkastning
-    CorrectAnswer: 4
+    CorrectAnswer: 01000000020000000300000004000000
   - Question: " Hvorn\xE5r i forl\xF8bet opst\xE5r de 4 typer?"
     Answer:
     - "Akut kvalme og opkastning opst\xE5r 0-24 timer efter indgift"
@@ -1652,7 +1652,7 @@ MonoBehaviour:
       behandling p\xE5 trods af antiemetisk profylakse"
     - "Akut kvalme og opkastning opst\xE5r 48-72 timer efter indgift."
     - "Senkvalme og opkastning opst\xE5r 5-10 dage efter indgift."
-    CorrectAnswer: 2
+    CorrectAnswer: 01000000020000000300000004000000
   options:
   - {fileID: 1684329888}
   - {fileID: 1279645934}
