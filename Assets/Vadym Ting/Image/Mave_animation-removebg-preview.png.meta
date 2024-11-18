@@ -100,12 +100,12 @@ TextureImporter:
       name: Mave_animation-removebg-preview_0
       rect:
         serializedVersion: 2
-        x: 7
-        y: 276
-        width: 141
-        height: 175
+        x: 5
+        y: 249
+        width: 165
+        height: 205
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -121,12 +121,12 @@ TextureImporter:
       name: Mave_animation-removebg-preview_1
       rect:
         serializedVersion: 2
-        x: 189
-        y: 276
-        width: 141
-        height: 175
+        x: 178
+        y: 249
+        width: 165
+        height: 203
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -142,12 +142,12 @@ TextureImporter:
       name: Mave_animation-removebg-preview_2
       rect:
         serializedVersion: 2
-        x: 371
-        y: 276
-        width: 140
-        height: 175
+        x: 359
+        y: 249
+        width: 165
+        height: 202
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -164,11 +164,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 7
-        y: 47
-        width: 141
-        height: 175
+        y: 17
+        width: 165
+        height: 205
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -189,7 +189,7 @@ TextureImporter:
         width: 165
         height: 205
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
