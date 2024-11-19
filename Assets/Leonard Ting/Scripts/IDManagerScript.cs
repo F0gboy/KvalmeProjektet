@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class IDManagerScript : MonoBehaviour
 {
-    [SerializeField] QuestionScript objIDHolder;
+    [SerializeField] private QuestionScript objIDHolder;
     public int id;
     // Start is called before the first frame update
     void Start()

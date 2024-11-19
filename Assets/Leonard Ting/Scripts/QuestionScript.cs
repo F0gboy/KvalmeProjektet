@@ -13,7 +13,7 @@ public class QuestionScript : MonoBehaviour
 
     public int id = 0;
     private int idLast = 0;
-
+    private int numCount = 1;
     
     [SerializeField] List<int> questionQueue = new List<int>(); 
 
@@ -56,6 +56,12 @@ public class QuestionScript : MonoBehaviour
             idLast = id;
             ChangeQuestion(id);
         }
+    }
+
+    public void NextQuestion()
+    {
+        id = questionQueue[numCount];
+        numCount++; 
     }
 
     public void ChangeQuestion(int id)
