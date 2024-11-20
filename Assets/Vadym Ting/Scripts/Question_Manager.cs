@@ -13,6 +13,7 @@ public class Question_Manager : MonoBehaviour
     private QuestionAndAnsvers questionAndAnsvers;
     private int correctAnswersCount = 0; 
     private int totalCorrectAnswers = 4;
+    
     // Start is called before the first frame update
     void Start()
     {   
@@ -22,7 +23,7 @@ public class Question_Manager : MonoBehaviour
     {
         correctAnswersCount++;
 
-        if (correctAnswersCount >= totalCorrectAnswers)
+        if (correctAnswersCount == totalCorrectAnswers)
         {
             if (qNa.Count > 0)
             {
@@ -30,13 +31,14 @@ public class Question_Manager : MonoBehaviour
                 GenerateQuestion();
             }
         }
-       
+     
+
     }
-    private void SetAnwer()
+    private void SetAnswer()
     {
         for (int i = 0; i < options.Length; i++)
         {
-          options[i].GetComponent<AnswerScript>().isCorrect = false;
+          options[i].GetComponent<PatofysiologiAnswerScript>().isCorrect = false;
           options[i].transform.GetChild(0).GetComponent<Text>().text = qNa[currentIndexQuestion].Answer[i];
           options[i].GetComponent<Image>().color = Color.white;
 
@@ -44,9 +46,9 @@ public class Question_Manager : MonoBehaviour
             if (qNa[currentIndexQuestion].CorrectAnswer.Contains(i + 1))
                 {
                
-                    options[i].GetComponent<AnswerScript>().isCorrect = true;
+                    options[i].GetComponent<PatofysiologiAnswerScript>().isCorrect = true;
                 }
-            
+          
         }
     }
     private void GenerateQuestion()
@@ -55,7 +57,7 @@ public class Question_Manager : MonoBehaviour
         {
             currentIndexQuestion = Random.Range(0, qNa.Count);
             questionPanelText.text = qNa[currentIndexQuestion].Question;
-            SetAnwer();
+            SetAnswer();
             correctAnswersCount = 0;
         }
         else
