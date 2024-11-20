@@ -6,9 +6,15 @@ public class AnswerScriptPatofysiologi : MonoBehaviour
 {
 
     [SerializeField] private GameObject IDManager;
+    [SerializeField] private QuestionScript qstScript;
     public bool lang;
     private int ID;
     private List<AnswerButton> answerBoxes = new List<AnswerButton>();
+
+    private AnswerButton right1 = null;
+    private AnswerButton right2 = null;
+    private AnswerButton right3 = null;
+
     [SerializeField] private List<GameObject> answerObjects = new List<GameObject>();
 
     [Header("Question 1")]
@@ -108,6 +114,10 @@ public class AnswerScriptPatofysiologi : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (right1.clicked && right2.clicked && right3.clicked)
+        {
+            qstScript.NextQuestion();
+        }
         if (ID != IDManager.GetComponent<IDManagerScript>().id)
         {
             ID = IDManager.GetComponent<IDManagerScript>().id;
@@ -124,6 +134,16 @@ public class AnswerScriptPatofysiologi : MonoBehaviour
         foreach (AnswerButton item in answerBoxes)
         {
             item.rightAnswer = false;
+            item.clicked = false;
+            try
+            {
+                item.img.color = Color.white; 
+            }
+            catch (System.Exception)
+            {
+
+               
+            }
         }
         #endregion
 
@@ -147,11 +167,16 @@ public class AnswerScriptPatofysiologi : MonoBehaviour
        
         answerBoxes[temp1].rightAnswer = true;
         answerBoxes[temp2].rightAnswer = true;
+        right1 = answerBoxes[temp1];
+        right2 = answerBoxes[temp2];
+        right3 = answerBoxes[temp2];
         if (ID != 4)
         {
         answerBoxes[temp3].rightAnswer = true;
+        right3 = answerBoxes[temp3];
 
         }
+        
         #endregion
 
         switch (ID)
