@@ -435,9 +435,9 @@ MonoBehaviour:
   m_fontSize: 24
   m_fontSizeBase: 24
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
-  m_fontSizeMax: 72
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 12
+  m_fontSizeMax: 24
   m_fontStyle: 0
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
@@ -814,7 +814,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 522464150}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 522464152}
+        m_TargetAssemblyTypeName: AnswerButton, Assembly-CSharp
+        m_MethodName: ButtonClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &522464150
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -865,8 +877,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b1ccdf7e6d723eb4ea362b76b9551272, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  clicked: 0
   textObj: {fileID: 1516050481}
   rightAnswer: 0
+  img: {fileID: 522464150}
+  healthManager: {fileID: 1717826956}
 --- !u!1 &600569347
 GameObject:
   m_ObjectHideFlags: 0
@@ -1173,9 +1188,9 @@ MonoBehaviour:
   m_fontSize: 24
   m_fontSizeBase: 24
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
-  m_fontSizeMax: 72
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 12
+  m_fontSizeMax: 24
   m_fontStyle: 0
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
@@ -1371,7 +1386,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1055032125}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1055032127}
+        m_TargetAssemblyTypeName: AnswerButton, Assembly-CSharp
+        m_MethodName: ButtonClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1055032125
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1422,8 +1449,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b1ccdf7e6d723eb4ea362b76b9551272, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  clicked: 0
   textObj: {fileID: 2123425897}
   rightAnswer: 0
+  img: {fileID: 0}
+  healthManager: {fileID: 1717826956}
 --- !u!1 &1077390930
 GameObject:
   m_ObjectHideFlags: 0
@@ -1507,7 +1537,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1077390933}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1077390935}
+        m_TargetAssemblyTypeName: AnswerButton, Assembly-CSharp
+        m_MethodName: ButtonClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1077390933
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1558,8 +1600,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b1ccdf7e6d723eb4ea362b76b9551272, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  clicked: 0
   textObj: {fileID: 2121366206}
   rightAnswer: 0
+  img: {fileID: 1077390933}
+  healthManager: {fileID: 1717826956}
 --- !u!1 &1114372552
 GameObject:
   m_ObjectHideFlags: 0
@@ -1738,14 +1783,14 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1114372556}
-        m_TargetAssemblyTypeName: QuestionScript, Assembly-CSharp
-        m_MethodName: ChangeQuestion
-        m_Mode: 3
+      - m_Target: {fileID: 1120604440}
+        m_TargetAssemblyTypeName: AnswerButton, Assembly-CSharp
+        m_MethodName: ButtonClick
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 3
+          m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -1800,8 +1845,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b1ccdf7e6d723eb4ea362b76b9551272, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  clicked: 0
   textObj: {fileID: 1191083791}
   rightAnswer: 0
+  img: {fileID: 1120604438}
+  healthManager: {fileID: 1717826956}
 --- !u!1 &1153470025
 GameObject:
   m_ObjectHideFlags: 0
@@ -1964,9 +2012,9 @@ MonoBehaviour:
   m_fontSize: 24
   m_fontSizeBase: 24
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
-  m_fontSizeMax: 72
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 12
+  m_fontSizeMax: 24
   m_fontStyle: 0
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
@@ -2338,7 +2386,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1281331067}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1281331069}
+        m_TargetAssemblyTypeName: AnswerButton, Assembly-CSharp
+        m_MethodName: ButtonClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1281331067
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2389,8 +2449,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b1ccdf7e6d723eb4ea362b76b9551272, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  clicked: 0
   textObj: {fileID: 1720593346}
   rightAnswer: 0
+  img: {fileID: 1055032125}
+  healthManager: {fileID: 1717826956}
 --- !u!1 &1338091584
 GameObject:
   m_ObjectHideFlags: 0
@@ -2444,6 +2507,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   IDManager: {fileID: 1808903770}
+  qstScript: {fileID: 1114372556}
   lang: 0
   answerObjects:
   - {fileID: 1120604435}
@@ -2939,9 +3003,9 @@ MonoBehaviour:
   m_fontSize: 24
   m_fontSizeBase: 24
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
-  m_fontSizeMax: 72
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 12
+  m_fontSizeMax: 24
   m_fontStyle: 0
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
@@ -3073,9 +3137,9 @@ MonoBehaviour:
   m_fontSize: 24
   m_fontSizeBase: 24
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
-  m_fontSizeMax: 72
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 12
+  m_fontSizeMax: 24
   m_fontStyle: 0
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
@@ -3504,9 +3568,9 @@ MonoBehaviour:
   m_fontSize: 24
   m_fontSizeBase: 24
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
-  m_fontSizeMax: 72
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 12
+  m_fontSizeMax: 24
   m_fontStyle: 0
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
@@ -3634,7 +3698,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1734622329}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1734622331}
+        m_TargetAssemblyTypeName: AnswerButton, Assembly-CSharp
+        m_MethodName: ButtonClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1734622329
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3685,8 +3761,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b1ccdf7e6d723eb4ea362b76b9551272, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  clicked: 0
   textObj: {fileID: 1475366337}
   rightAnswer: 0
+  img: {fileID: 1734622329}
+  healthManager: {fileID: 1717826956}
 --- !u!1 &1808903770
 GameObject:
   m_ObjectHideFlags: 0
@@ -3963,7 +4042,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1871542153}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1871542155}
+        m_TargetAssemblyTypeName: AnswerButton, Assembly-CSharp
+        m_MethodName: ButtonClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1871542153
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4014,8 +4105,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b1ccdf7e6d723eb4ea362b76b9551272, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  clicked: 0
   textObj: {fileID: 313855678}
   rightAnswer: 0
+  img: {fileID: 1871542153}
+  healthManager: {fileID: 1717826956}
 --- !u!1001 &1912024075
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4024,6 +4118,38 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1268440840}
     m_Modifications:
+    - target: {fileID: 1311963729467956442, guid: 2ea8afb94677abe4584fe35c2c82ae1a, type: 3}
+      propertyPath: m_margin.w
+      value: 8.824145
+      objectReference: {fileID: 0}
+    - target: {fileID: 1311963729467956442, guid: 2ea8afb94677abe4584fe35c2c82ae1a, type: 3}
+      propertyPath: m_margin.x
+      value: 5.8748164
+      objectReference: {fileID: 0}
+    - target: {fileID: 1311963729467956442, guid: 2ea8afb94677abe4584fe35c2c82ae1a, type: 3}
+      propertyPath: m_margin.y
+      value: 8.482289
+      objectReference: {fileID: 0}
+    - target: {fileID: 1311963729467956442, guid: 2ea8afb94677abe4584fe35c2c82ae1a, type: 3}
+      propertyPath: m_margin.z
+      value: 6.296208
+      objectReference: {fileID: 0}
+    - target: {fileID: 2435939626545671744, guid: 2ea8afb94677abe4584fe35c2c82ae1a, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: -168.067
+      objectReference: {fileID: 0}
+    - target: {fileID: 2435939626545671744, guid: 2ea8afb94677abe4584fe35c2c82ae1a, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: -16.141
+      objectReference: {fileID: 0}
+    - target: {fileID: 2435939626545671744, guid: 2ea8afb94677abe4584fe35c2c82ae1a, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -15.6760025
+      objectReference: {fileID: 0}
+    - target: {fileID: 2435939626545671744, guid: 2ea8afb94677abe4584fe35c2c82ae1a, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.000009536743
+      objectReference: {fileID: 0}
     - target: {fileID: 2597912333140811650, guid: 2ea8afb94677abe4584fe35c2c82ae1a, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -4108,6 +4234,22 @@ PrefabInstance:
       propertyPath: SceneName
       value: Farmakologi
       objectReference: {fileID: 0}
+    - target: {fileID: 3988028677876798774, guid: 2ea8afb94677abe4584fe35c2c82ae1a, type: 3}
+      propertyPath: m_margin.w
+      value: 16.188538
+      objectReference: {fileID: 0}
+    - target: {fileID: 3988028677876798774, guid: 2ea8afb94677abe4584fe35c2c82ae1a, type: 3}
+      propertyPath: m_margin.x
+      value: 9.558938
+      objectReference: {fileID: 0}
+    - target: {fileID: 3988028677876798774, guid: 2ea8afb94677abe4584fe35c2c82ae1a, type: 3}
+      propertyPath: m_margin.y
+      value: 16.188526
+      objectReference: {fileID: 0}
+    - target: {fileID: 3988028677876798774, guid: 2ea8afb94677abe4584fe35c2c82ae1a, type: 3}
+      propertyPath: m_margin.z
+      value: 7.6859493
+      objectReference: {fileID: 0}
     - target: {fileID: 7295752954383160118, guid: 2ea8afb94677abe4584fe35c2c82ae1a, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -4115,6 +4257,22 @@ PrefabInstance:
     - target: {fileID: 7326071397284354538, guid: 2ea8afb94677abe4584fe35c2c82ae1a, type: 3}
       propertyPath: m_Name
       value: ReturnButton
+      objectReference: {fileID: 0}
+    - target: {fileID: 8949326452510588613, guid: 2ea8afb94677abe4584fe35c2c82ae1a, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: -172.42
+      objectReference: {fileID: 0}
+    - target: {fileID: 8949326452510588613, guid: 2ea8afb94677abe4584fe35c2c82ae1a, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: -17.567
+      objectReference: {fileID: 0}
+    - target: {fileID: 8949326452510588613, guid: 2ea8afb94677abe4584fe35c2c82ae1a, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0.0001296997
+      objectReference: {fileID: 0}
+    - target: {fileID: 8949326452510588613, guid: 2ea8afb94677abe4584fe35c2c82ae1a, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -1.5198994
       objectReference: {fileID: 0}
     - target: {fileID: 9215048774222619832, guid: 2ea8afb94677abe4584fe35c2c82ae1a, type: 3}
       propertyPath: m_Color.a
@@ -4288,7 +4446,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2089049810}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2089049812}
+        m_TargetAssemblyTypeName: AnswerButton, Assembly-CSharp
+        m_MethodName: ButtonClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2089049810
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4339,8 +4509,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b1ccdf7e6d723eb4ea362b76b9551272, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  clicked: 0
   textObj: {fileID: 977621631}
   rightAnswer: 0
+  img: {fileID: 2089049810}
+  healthManager: {fileID: 1717826956}
 --- !u!1 &2121366204
 GameObject:
   m_ObjectHideFlags: 0
@@ -4428,9 +4601,9 @@ MonoBehaviour:
   m_fontSize: 24
   m_fontSizeBase: 24
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
-  m_fontSizeMax: 72
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 12
+  m_fontSizeMax: 24
   m_fontStyle: 0
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
@@ -4562,9 +4735,9 @@ MonoBehaviour:
   m_fontSize: 24
   m_fontSizeBase: 24
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
-  m_fontSizeMax: 72
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 12
+  m_fontSizeMax: 24
   m_fontStyle: 0
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
