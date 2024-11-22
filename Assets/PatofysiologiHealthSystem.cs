@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class PatofysiologiHealthSystem : MonoBehaviour
 {
     public int life ;
-    private Question_Manager question_Manager;
+    //private Question_Manager question_Manager;
     public Text Health_board;
 
      void Start()

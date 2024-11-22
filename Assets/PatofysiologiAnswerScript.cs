@@ -6,7 +6,7 @@ using UnityEngine;
 public class PatofysiologiAnswerScript : MonoBehaviour
 {
     public bool isCorrect = false;
-    public Question_Manager question_Manager;
+    //public Question_Manager question_Manager;
     Image buttonImage;
     private PatofysiologiHealthSystem patofysiologiHealthSystem;
 
@@ -23,7 +23,7 @@ public class PatofysiologiAnswerScript : MonoBehaviour
             
             buttonImage.color = Color.green;
             Debug.Log("Correct Answer");
-            question_Manager.Correct();
+            //question_Manager.Correct();
         }
         else
         {
