@@ -1005,7 +1005,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1061791121}
-        m_TargetAssemblyTypeName: AnswerScript, Assembly-CSharp
+        m_TargetAssemblyTypeName: PatofysiologiAnswerScript, Assembly-CSharp
         m_MethodName: Answer
         m_Mode: 1
         m_Arguments:
@@ -1078,7 +1078,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1061791115}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b3a44ac88f13f5419a703d6e61d819b, type: 3}
+  m_Script: {fileID: 11500000, guid: 1c24f2af254922441a3d40ea7bcc1470, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   isCorrect: 0
@@ -1244,7 +1244,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1279645940}
-        m_TargetAssemblyTypeName: AnswerScript, Assembly-CSharp
+        m_TargetAssemblyTypeName: PatofysiologiAnswerScript, Assembly-CSharp
         m_MethodName: Answer
         m_Mode: 1
         m_Arguments:
@@ -1317,7 +1317,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1279645934}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b3a44ac88f13f5419a703d6e61d819b, type: 3}
+  m_Script: {fileID: 11500000, guid: 1c24f2af254922441a3d40ea7bcc1470, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   isCorrect: 0
@@ -1510,7 +1510,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1449658690}
-        m_TargetAssemblyTypeName: AnswerScript, Assembly-CSharp
+        m_TargetAssemblyTypeName: PatofysiologiAnswerScript, Assembly-CSharp
         m_MethodName: Answer
         m_Mode: 1
         m_Arguments:
@@ -1583,7 +1583,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1449658684}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b3a44ac88f13f5419a703d6e61d819b, type: 3}
+  m_Script: {fileID: 11500000, guid: 1c24f2af254922441a3d40ea7bcc1470, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   isCorrect: 0
@@ -1748,7 +1748,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1684329894}
-        m_TargetAssemblyTypeName: AnswerScript, Assembly-CSharp
+        m_TargetAssemblyTypeName: PatofysiologiAnswerScript, Assembly-CSharp
         m_MethodName: Answer
         m_Mode: 1
         m_Arguments:
@@ -1821,7 +1821,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1684329888}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b3a44ac88f13f5419a703d6e61d819b, type: 3}
+  m_Script: {fileID: 11500000, guid: 1c24f2af254922441a3d40ea7bcc1470, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   isCorrect: 0
@@ -2083,7 +2083,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1833921539}
-        m_TargetAssemblyTypeName: AnswerScript, Assembly-CSharp
+        m_TargetAssemblyTypeName: PatofysiologiAnswerScript, Assembly-CSharp
         m_MethodName: Answer
         m_Mode: 1
         m_Arguments:
@@ -2156,7 +2156,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1833921533}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b3a44ac88f13f5419a703d6e61d819b, type: 3}
+  m_Script: {fileID: 11500000, guid: 1c24f2af254922441a3d40ea7bcc1470, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   isCorrect: 0
@@ -2247,7 +2247,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1859340301}
-        m_TargetAssemblyTypeName: AnswerScript, Assembly-CSharp
+        m_TargetAssemblyTypeName: PatofysiologiAnswerScript, Assembly-CSharp
         m_MethodName: Answer
         m_Mode: 1
         m_Arguments:
@@ -2320,7 +2320,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1859340295}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b3a44ac88f13f5419a703d6e61d819b, type: 3}
+  m_Script: {fileID: 11500000, guid: 1c24f2af254922441a3d40ea7bcc1470, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   isCorrect: 0
