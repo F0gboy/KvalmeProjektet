@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 
@@ -10,19 +11,28 @@ public class Question_Manager : MonoBehaviour
     public GameObject[] options;
     public int currentIndexQuestion;
     public Text questionPanelText;
-    private QuestionAndAnsvers questionAndAnsvers;
+    private QuestionAndAnsvers questionAndAnsvers;  
     private int correctAnswersCount = 0; 
     private int totalCorrectAnswers = 4;
+    public Statistic_ManagerPatofisiologi Statistic_ManagerPatofisiologi;
+    public GameObject BackGround;
     
     // Start is called before the first frame update
     void Start()
     {   
         GenerateQuestion();
+        BackGround.SetActive(false);
+    }
+    public void Restart()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+
     }
     public void Correct()
     {
         correctAnswersCount++;
 
+        Statistic_ManagerPatofisiologi.CorrectAnswers++;
         if (correctAnswersCount == totalCorrectAnswers)
         {
             if (qNa.Count > 0)
@@ -60,9 +70,10 @@ public class Question_Manager : MonoBehaviour
             SetAnswer();
             correctAnswersCount = 0;
         }
-        else
+        else if (qNa.Count == 0)
         {
-            Debug.Log("Out of question");
+            BackGround.SetActive(true);
+            Statistic_ManagerPatofisiologi.Statistic();
         }
     }
     
