@@ -10,7 +10,7 @@ public class QuizSystem : MonoBehaviour
     // Start is called before the first frame update
 
     public List<string> RightAnswers = new List<string>();
-    public List<string> RightAnswersCopy = new List<string>();
+    private List<string> RightAnswersCopy = new List<string>();
     public List<string> WrongAnswers = new List<string>();
     public List<List<string>> AnswerLists = new List<List<string>>();
 
