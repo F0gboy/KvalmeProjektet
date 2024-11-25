@@ -6,7 +6,9 @@ using UnityEngine;
 public class HealthSystem : MonoBehaviour
 {
     private TMP_Text txt;
-    private int health = 3;
+    public int health = 3;
+    [SerializeField] GameObject quizParent;
+    [SerializeField] GameObject lossParent;
 
     private void Start()
     {
@@ -23,7 +25,8 @@ public class HealthSystem : MonoBehaviour
     }
     private void Death()
     {
-        //placeholder
+        lossParent.SetActive(true);
+        quizParent.SetActive(false);
     }
 }
 

@@ -8,6 +8,8 @@ TagManager:
   - Health
   - IDManager
   - Language
+  - DropArea
+  - PlacementPanel
   layers:
   - Default
   - TransparentFX
