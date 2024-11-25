@@ -5,27 +5,32 @@ using UnityEngine.UI;
 
 public class PatofysiologiHealthSystem : MonoBehaviour
 {
-    public int life ;
+    public int life=3 ;
     private Question_Manager question_Manager;
     public Text Health_board;
+    public GameObject Background;
+    public Statistic_ManagerPatofisiologi statistic;
 
      void Start()
     {
-        
-    UpdateHealthBoard();
+        Background.SetActive(false);
+        UpdateHealthBoard();
     }
     public void LossOfLife()
     {
         if (life > 0)
         {
 
+            statistic.WrongAnswer++;
             life--;
             UpdateHealthBoard();
         }
-        else if (life == 0)
+        if (life<=0)
         {
-
             Debug.Log("You don't have enough lifes");
+            Background.SetActive(true);
+            statistic.Statistic();
+        
         }
     }
     private void UpdateHealthBoard()
