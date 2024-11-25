@@ -43,21 +43,21 @@ public class Question_Manager : MonoBehaviour
         }
      
 
-    }
-    private void SetAnswer()
-    {
-        for (int i = 0; i < options.Length; i++)
-        {
-          options[i].GetComponent<PatofysiologiAnswerScript>().isCorrect = false;
-          options[i].transform.GetChild(0).GetComponent<Text>().text = qNa[currentIndexQuestion].Answer[i];
-          options[i].GetComponent<Image>().color = Color.white;
+//    }
+//    private void SetAnswer()
+//    {
+//        for (int i = 0; i < options.Length; i++)
+//        {
+//          options[i].GetComponent<PatofysiologiAnswerScript>().isCorrect = false;
+//          options[i].transform.GetChild(0).GetComponent<Text>().text = qNa[currentIndexQuestion].Answer[i];
+//          options[i].GetComponent<Image>().color = Color.white;
 
 
-            if (qNa[currentIndexQuestion].CorrectAnswer.Contains(i + 1))
-                {
+//            if (qNa[currentIndexQuestion].CorrectAnswer.Contains(i + 1))
+//                {
                
-                    options[i].GetComponent<PatofysiologiAnswerScript>().isCorrect = true;
-                }
+//                    options[i].GetComponent<PatofysiologiAnswerScript>().isCorrect = true;
+//                }
           
         }
     }
@@ -77,4 +77,4 @@ public class Question_Manager : MonoBehaviour
         }
     }
     
-}
+//}

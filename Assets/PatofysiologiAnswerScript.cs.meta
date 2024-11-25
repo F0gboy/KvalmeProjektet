@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/ScoreChecker.cs.meta
+guid: 4cfdb93058ae5994d974aabbf1da0d85
+========
 guid: 1c24f2af254922441a3d40ea7bcc1470
+>>>>>>>> eda42dc25ce30d23369af3c903def12f9c6c4d6c:Assets/PatofysiologiAnswerScript.cs.meta
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
