@@ -468,6 +468,7 @@ MonoBehaviour:
   Health_board: {fileID: 892666657}
   Background: {fileID: 748306059}
   statistic: {fileID: 1173409345}
+  animator: {fileID: 1863665517}
 --- !u!4 &331535109
 Transform:
   m_ObjectHideFlags: 0
@@ -608,7 +609,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: baa75c9c4b4585a47ac1e3afc16b8915, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 090587d2061568e4aa910dc22d284a69, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2117,7 +2118,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1301812814
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2442,6 +2443,7 @@ MonoBehaviour:
   questionPanelText: {fileID: 130112114}
   Statistic_ManagerPatofisiologi: {fileID: 1173409345}
   BackGround: {fileID: 748306059}
+  animator: {fileID: 1863665517}
 --- !u!1 &1684329888
 GameObject:
   m_ObjectHideFlags: 0
@@ -3273,7 +3275,7 @@ Animator:
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: afc51d9ecf00234458e1d2ad51f70968, type: 2}
   m_CullingMode: 0
-  m_UpdateMode: 0
+  m_UpdateMode: 1
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0

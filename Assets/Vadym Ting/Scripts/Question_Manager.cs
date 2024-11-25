@@ -16,6 +16,8 @@ public class Question_Manager : MonoBehaviour
     private int totalCorrectAnswers = 4;
     public Statistic_ManagerPatofisiologi Statistic_ManagerPatofisiologi;
     public GameObject BackGround;
+    public Animator animator;
+    public float typingSpeed=0.004f;
     
     // Start is called before the first frame update
     void Start()
@@ -31,6 +33,7 @@ public class Question_Manager : MonoBehaviour
     public void Correct()
     {
         correctAnswersCount++;
+      
 
         Statistic_ManagerPatofisiologi.CorrectAnswers++;
         if (correctAnswersCount == totalCorrectAnswers)
@@ -66,7 +69,8 @@ public class Question_Manager : MonoBehaviour
         if (qNa.Count > 0)
         {
             currentIndexQuestion = Random.Range(0, qNa.Count);
-            questionPanelText.text = qNa[currentIndexQuestion].Question;
+            //questionPanelText.text = qNa[currentIndexQuestion].Question;
+            StartCoroutine(DisplayLine(qNa[currentIndexQuestion].Question));
             SetAnswer();
             correctAnswersCount = 0;
         }
@@ -74,6 +78,16 @@ public class Question_Manager : MonoBehaviour
         {
             BackGround.SetActive(true);
             Statistic_ManagerPatofisiologi.Statistic();
+        }
+    }
+    private IEnumerator DisplayLine( string line )
+    {
+        questionPanelText.text = "";
+
+        foreach(char letter in line.ToCharArray() )
+        {
+            questionPanelText.text += letter;
+            yield return new WaitForSeconds(typingSpeed);
         }
     }
     
