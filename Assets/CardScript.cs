@@ -8,8 +8,12 @@ public class CardScript : MonoBehaviour
     [SerializeField] bool primary;
     [SerializeField] int speed;
     [SerializeField] CardScript otherCard;
+    [SerializeField] CardsManager cardsManager;
+    [SerializeField] GameObject Answer1;
+    [SerializeField] GameObject Answer2;
     public Vector3 target;
     public bool offScreen;
+    public int clickCount;
 
 
 
@@ -25,6 +29,9 @@ public class CardScript : MonoBehaviour
         { 
             transform.localPosition = new Vector3(-600, 0, 0); 
             offScreen = true;
+            Answer1.SetActive(false);
+            Answer2.SetActive(false);
+            cardsManager.NewCard();
         }
         
         if (primary == false && offScreen == false)
@@ -34,8 +41,33 @@ public class CardScript : MonoBehaviour
         if (primary == true && transform.localPosition.x < 0) 
         { 
             transform.localPosition = Vector3.Lerp(transform.localPosition, new Vector3(0, 0, 0), Time.deltaTime * speed);
+
         }
         
+    }
+
+    public void click()
+    {
+        clickCount++;
+        switch (clickCount)
+        {
+            case 1:
+                Answer1.SetActive(true);
+                
+                break;
+
+            case 2:
+                Answer2.SetActive(true);
+                break;
+            
+            case 3:
+                ExitScreen();
+                clickCount = 0;
+                break;
+            
+            default:
+                break;
+        }
     }
 
     public void ExitScreen()
