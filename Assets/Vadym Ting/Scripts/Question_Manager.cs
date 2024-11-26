@@ -1,36 +1,46 @@
-//using System.Collections;
-//using System.Collections.Generic;
-//using UnityEngine;
-//using UnityEngine.UI;
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 
-//public class Question_Manager : MonoBehaviour
-//{
-//    public List<QuestionAndAnsvers> qNa;
-//    public GameObject[] options;
-//    public int currentIndexQuestion;
-//    public Text questionPanelText;
-//    private QuestionAndAnsvers questionAndAnsvers;
-//    private int correctAnswersCount = 0; 
-//    private int totalCorrectAnswers = 4;
+public class Question_Manager : MonoBehaviour
+{
+    public List<QuestionAndAnsvers> qNa;
+    public GameObject[] options;
+    public int currentIndexQuestion;
+    public Text questionPanelText;
+    private QuestionAndAnsvers questionAndAnsvers;  
+    private int correctAnswersCount = 0; 
+    private int totalCorrectAnswers = 4;
+    public Statistic_ManagerPatofisiologi Statistic_ManagerPatofisiologi;
+    public GameObject BackGround;
     
-//    // Start is called before the first frame update
-//    void Start()
-//    {   
-//        GenerateQuestion();
-//    }
-//    public void Correct()
-//    {
-//        correctAnswersCount++;
+    // Start is called before the first frame update
+    void Start()
+    {   
+        GenerateQuestion();
+        BackGround.SetActive(false);
+    }
+    public void Restart()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
 
-//        if (correctAnswersCount == totalCorrectAnswers)
-//        {
-//            if (qNa.Count > 0)
-//            {
-//                qNa.RemoveAt(currentIndexQuestion);
-//                GenerateQuestion();
-//            }
-//        }
+    }
+    public void Correct()
+    {
+        correctAnswersCount++;
+
+        Statistic_ManagerPatofisiologi.CorrectAnswers++;
+        if (correctAnswersCount == totalCorrectAnswers)
+        {
+            if (qNa.Count > 0)
+            {
+                qNa.RemoveAt(currentIndexQuestion);
+                GenerateQuestion();
+            }
+        }
      
 
 //    }
@@ -49,21 +59,22 @@
 //                    options[i].GetComponent<PatofysiologiAnswerScript>().isCorrect = true;
 //                }
           
-//        }
-//    }
-//    private void GenerateQuestion()
-//    {
-//        if (qNa.Count > 0)
-//        {
-//            currentIndexQuestion = Random.Range(0, qNa.Count);
-//            questionPanelText.text = qNa[currentIndexQuestion].Question;
-//            SetAnswer();
-//            correctAnswersCount = 0;
-//        }
-//        else
-//        {
-//            Debug.Log("Out of question");
-//        }
-//    }
+        }
+    }
+    private void GenerateQuestion()
+    {
+        if (qNa.Count > 0)
+        {
+            currentIndexQuestion = Random.Range(0, qNa.Count);
+            questionPanelText.text = qNa[currentIndexQuestion].Question;
+            SetAnswer();
+            correctAnswersCount = 0;
+        }
+        else if (qNa.Count == 0)
+        {
+            BackGround.SetActive(true);
+            Statistic_ManagerPatofisiologi.Statistic();
+        }
+    }
     
 //}
