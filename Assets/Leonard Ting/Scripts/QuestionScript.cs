@@ -51,7 +51,7 @@ public class QuestionScript : MonoBehaviour
         return ts;
     }
 
-        private void Update()
+    private void Update()
     {
         if (id != idLast) 
         { 

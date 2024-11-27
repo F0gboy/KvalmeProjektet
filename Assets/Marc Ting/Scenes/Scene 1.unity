@@ -178,7 +178,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rotationCenter: {fileID: 1278463691}
-  rotationRadius: 100
+  rotationRadius: 240
   angularSpeed: 2
 --- !u!114 &41889519
 MonoBehaviour:
@@ -852,7 +852,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rotationCenter: {fileID: 1278463691}
-  rotationRadius: 100
+  rotationRadius: 240
   angularSpeed: 0.5
 --- !u!114 &490617541
 MonoBehaviour:
@@ -1646,7 +1646,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rotationCenter: {fileID: 1278463691}
-  rotationRadius: 100
+  rotationRadius: 240
   angularSpeed: 1
 --- !u!114 &1133482536
 MonoBehaviour:
@@ -1790,7 +1790,7 @@ Transform:
   m_GameObject: {fileID: 1278463690}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 323.47827, y: -84.63769, z: -1.3296957}
+  m_LocalPosition: {x: 321, y: -92, z: -1.3296957}
   m_LocalScale: {x: 1.1594204, y: 1.1594204, z: 1.1594204}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1906,7 +1906,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9215048774222619832, guid: 2ea8afb94677abe4584fe35c2c82ae1a, type: 3}
       propertyPath: m_Color.a
-      value: 0.5568628
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2048,7 +2048,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rotationCenter: {fileID: 1278463691}
-  rotationRadius: 100
+  rotationRadius: 240
   angularSpeed: 1.5
 --- !u!114 &1596152786
 MonoBehaviour:
