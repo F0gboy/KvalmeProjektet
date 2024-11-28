@@ -3091,19 +3091,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   RightAnswers:
-  - "Hvilken medicinsk kr\xE6ftbehandling har Karl f\xE5et?"
+  - "Hvilken medicinsk kr\xE6ftbehandling har han f\xE5et?"
   - Hvilken antiemtika er der anvendt?
   - "Hvorn\xE5r har patienten taget sin antiemetika?"
-  - "Har Karl f\xE5et v\xE6ske og mad nok?"
+  - "Har han f\xE5et v\xE6ske og mad nok?"
   - Er der andre sygdomme i spil?
-  - Har Karl obstipation
-  - Har Karl feber?
+  - Har han obstipation
+  - Har han feber?
   WrongAnswers:
-  - Forkert
-  - Forkert
-  - Forkert
-  - Forkert
-  - Forkert
+  - Har Karl sovet godt?
+  - Har Karl dyrket motion?
+  - Har Karl spist krydret mad?
+  - Har Karl haft allergiske reaktioner?
+  - "Har Karl v\xE6ret ude i solen?"
   Guesses: 5
   Buttons:
   - {fileID: 1957490989}

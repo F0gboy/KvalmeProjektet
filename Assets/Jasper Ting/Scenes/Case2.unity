@@ -1932,8 +1932,8 @@ MonoBehaviour:
   - "Der kan v\xE6re tale om forventningskvalme"
   - "F\xE5 hende sk\xE6rmet, og s\xF8rge for frisk luft og noget at drikke"
   WrongAnswers:
-  - Forkert
-  - Forkert
+  - "Tilbyd hende et stort m\xE5ltid for at stabilisere maven"
+  - Ignorer det, da det er normalt under behandling
   Guesses: 2
   Buttons:
   - {fileID: 1957490989}
