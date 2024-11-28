@@ -7,7 +7,10 @@ using UnityEngine.UI;
 
 public class Question_Manager : MonoBehaviour
 {
-    public List<QuestionAndAnsvers> qNa;
+    public bool lang;
+    public List<QuestionAndAnsvers> qNaDK;
+    public List<QuestionAndAnsvers> qNaEN;
+    private List<QuestionAndAnsvers> qNa;
     public GameObject[] options;
     public int currentIndexQuestion;
     public Text questionPanelText;
@@ -23,7 +26,17 @@ public class Question_Manager : MonoBehaviour
 
     // Start is called before the first frame update
     void Start()
-    {   
+    {
+        GameObject temp = GameObject.FindGameObjectWithTag("Language");
+        if (temp.GetComponent<LanguageScript>().langNum == 0) { lang = true; }
+        if (lang)
+        {
+            qNa = qNaDK;
+        }
+        else
+        {
+            qNa = qNaEN;
+        }
         GenerateQuestion();
         BackGround.SetActive(false);
       
