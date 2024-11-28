@@ -530,8 +530,8 @@ public class CardsManager : MonoBehaviour
                 }
                 else
                 {
-                    Category.text = "Engelsk";
-                    Question.text = "Why is a **nausea history** taken?";
+                    Category.text = "Nausea Anamnesis";
+                    Question.text = "Why is a nausea anamnesis taken??";
                     BonusQuestion.text = "What consequences can it have for the patient if the antiemetic treatment has not been optimal?";
                     Answer.text = "• To prevent nausea and vomiting.\r\n• To ensure the best possible antiemetic treatment is given.\r\n• To identify any patient-related risk factors.";
                     BonusAnswer.text = "• With prolonged nausea and vomiting, daily activities may be restricted and quality of life may deteriorate.\r\n• There is a risk that the medical cancer treatment cannot be administered.";
@@ -549,8 +549,8 @@ public class CardsManager : MonoBehaviour
                 }
                 else
                 {
-                    Category.text = "Engelsk";
-                    Question.text = "When should a nausea history be taken?";
+                    Category.text = "Nausea Anamnesis";
+                    Question.text = "When should a nausea anamnesis be taken??";
                     BonusQuestion.text = "What is the most important source of information when you conduct a nausea history?";
                     Answer.text = "• Before each treatment\r\n• In case of breakthrough nausea or vomiting";
                     BonusAnswer.text = "The most important thing is the conversation with your patient, and remember that relatives can also be a good source of information when you take a history.";
@@ -579,7 +579,7 @@ public class CardsManager : MonoBehaviour
                 }
                 else
                 {
-                    Category.text = "Engelsk";
+                    Category.text = "Nausea Anamnesis";
                     Question.text = "Which risk factors in the patient are significant for the nausea anamnesis?";
                     BonusQuestion.text = "Can you elaborate on how the above factors influence?\r\n+ = increased risk \r\n- = decreased risk\r\n";
                     Answer.text ="" +
@@ -600,12 +600,27 @@ public class CardsManager : MonoBehaviour
                     Category.text = "Kvalmeanamese";
                     Question.text = "Hvilke informationer er vigtige at indhente i kvalmeanamnesen\r\nved gennembrudskvalme og -opkastning?";
                     BonusQuestion.text = "Hvis det er mere end 5 dage siden patienten sidst fik\r\nmedicinsk kræftbehandling hvilke andre årsager?";
-                    Answer.text = "• Undersøg om det er mere\r\nend 5 dage siden patienten\r\nsidst har fået medicinsk\r\nkræftbehandling\r\n• Kvalme intensitet (fx skala\r\nfra 0-10)\r\n• Tidspunkt for symptomdebut:\r\nakut (0-24 t) eller\r\nsen fase (25-120 t)\r\n• Højeste antal af evt\r\nopkastninger i en 24-\r\ntimers periode\r\n• Kan/kunne patienten spise\r\nog drikke, mens der er/var\r\nsymptomer?\r\n• Hvilke antiemetika blev\r\nindtaget og hvornår?";
-                    BonusAnswer.text = "• Sygdomsudbredning\r\n• Sygdommens placering\r\n• Elektrolytbalance\r\n• Medicin\r\n• Sult\r\n• Dyspepsi\r\n• Smerter\r\n• Træthed\r\n• Svampeinfektion i mund\r\nog hals\r\n• Obstipation\r\n• Reaktion på stråleterapi";
+                    Answer.text = "" +
+                        "• Undersøg om det er mere     • Højeste antal af evt\r\n" +
+                        "  end 5 dage siden patienten    opkastninger i en 24-\r\n" +
+                        "  sidst har fået medicinsk      timers periode\r\n" +
+                        "  kræftbehandling             • Kan/kunne patienten spise\r\n" +
+                        "• Kvalme intensitet (fx skala   og drikke, mens der er/var\r\n" +
+                        "  fra 0-10)                     symptomer?\r\n" +
+                        "• Tidspunkt for symptomdebut: • Hvilke antiemetika blev\r\n" +
+                        "  akut (0-24 t) eller           indtaget og hvornår?\r\n" +
+                        "  sen fase (25-120 t)";
+                    BonusAnswer.text = "" +
+                        "• Sygdomsudbredning    • Smerter\r\n" +
+                        "• Sygdommens placering • Træthed\r\n" +
+                        "• Elektrolytbalance    • Svampeinfektion i mund og hals\r\n" +
+                        "• Medicin              • Obstipation\r\n" +
+                        "• Sult                 • Reaktion på stråleterapi" +
+                        "• Dyspepsi ";
                 }
                 else
                 {
-                    Category.text = "Engelsk";
+                    Category.text = "Nausea Anamnesis";
                     Question.text = "What information is important to gather in the nausea history in cases of breakthrough nausea and vomiting?";
                     BonusQuestion.text = "If it has been more than 5 days since the patient last received medical cancer treatment, what other causes?";
                     Answer.text = "• Check if it has been more than 5 days since the patient last received medical cancer treatment\r\n• Nausea intensity (e.g., scale from 0-10)\r\n• Onset of symptoms: acute (0-24 hours) or late phase (25-120 hours)\r\n• Highest number of possible vomits in a 24-hour period\r\n• Could/can the patient eat and drink while experiencing symptoms?\r\n• Which antiemetics were taken and when?";
@@ -624,7 +639,7 @@ public class CardsManager : MonoBehaviour
                 }
                 else
                 {
-                    Category.text = "Engelsk";
+                    Category.text = "Nausea Anamnesis";
                     Question.text = "What can the patient do to alleviate nausea and vomiting?";
                     BonusQuestion.text = "";
                     Answer.text = "• Drink plenty of fluids\r\n• Light meal before treatment\r\n• Small, light meals in general\r\n• Wear loose, comfortable clothing\r\n• Distraction, e.g., movies, books, TV, music, etc.\r\n• Good oral hygiene/care\r\n• Physical activity\r\n• Calm surroundings\r\n• Presence of relatives and the nurse can reduce anxiety and restlessness";
@@ -643,7 +658,7 @@ public class CardsManager : MonoBehaviour
                 }
                 else
                 {
-                    Category.text = "Engelsk";
+                    Category.text = "Nausea Anamnesis";
                     Question.text = "What physical symptoms are seen with nausea and vomiting?";
                     BonusQuestion.text = "What nursing actions are relevant for a patient with nausea and vomiting?";
                     Answer.text = "• Increased pulse\r\n• Palpitations\r\n• Pallor\r\n• Cold and clammy sweat\r\n• Increased saliva secretion\r\n• Aversion to food";
