@@ -2,10 +2,18 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
+using UnityEngine.UIElements;
 
 public class CardsManager : MonoBehaviour
 {
     public bool lang;
+    [SerializeField] UnityEngine.UI.Image colorBoxBig1;
+    [SerializeField] UnityEngine.UI.Image colorBoxLil1;
+
+    [SerializeField] UnityEngine.UI.Image colorBoxBig2;
+    [SerializeField] UnityEngine.UI.Image colorBoxLil2;
+
     [SerializeField] List<int> cardQueue = new List<int>();
 
     [HeaderAttribute("Card1")]
@@ -30,6 +38,8 @@ public class CardsManager : MonoBehaviour
     private TMP_Text BonusQuestion;
     private TMP_Text Answer;
     private TMP_Text BonusAnswer;
+    private UnityEngine.UI.Image colorBoxBig;
+    private UnityEngine.UI.Image colorBoxLil;
 
 
     public int id;
@@ -56,6 +66,8 @@ public class CardsManager : MonoBehaviour
         BonusQuestion = BonusQuestion1;
         Answer = Answer1;
         BonusAnswer = BonusAnswer1;
+        colorBoxBig = colorBoxBig1;
+        colorBoxLil = colorBoxLil1;
 
 
 
@@ -74,6 +86,8 @@ public class CardsManager : MonoBehaviour
         switch (id)
         {
             case 1:
+                colorBoxLil.color = Color.green;
+                colorBoxBig.color = Color.green;
                 if (lang)
                 {
                     
@@ -93,6 +107,8 @@ public class CardsManager : MonoBehaviour
                 }
                 break;
             case 2:
+                colorBoxLil.color = Color.green;
+                colorBoxBig.color = Color.green;
                 if (lang)
                 {
 
@@ -124,6 +140,8 @@ public class CardsManager : MonoBehaviour
                 }
                 break;
             case 3:
+                colorBoxLil.color = Color.green;
+                colorBoxBig.color = Color.green;
                 if (lang)
                 {
 
@@ -143,6 +161,8 @@ public class CardsManager : MonoBehaviour
                 }
                 break;
             case 4:
+                colorBoxLil.color = Color.green;
+                colorBoxBig.color = Color.green;
                 if (lang)
                 {
 
@@ -162,6 +182,8 @@ public class CardsManager : MonoBehaviour
                 }
                 break;
             case 5:
+                colorBoxLil.color = Color.green;
+                colorBoxBig.color = Color.green;
                 if (lang)
                 {
 
@@ -181,6 +203,8 @@ public class CardsManager : MonoBehaviour
                 }
                 break;
             case 6:
+                colorBoxLil.color = Color.green;
+                colorBoxBig.color = Color.green;
                 if (lang)
                 {
 
@@ -200,6 +224,8 @@ public class CardsManager : MonoBehaviour
                 }
                 break;
             case 7:
+                colorBoxLil.color = Color.green;
+                colorBoxBig.color = Color.green;
                 if (lang)
                 {
 
@@ -219,6 +245,8 @@ public class CardsManager : MonoBehaviour
                 }
                 break;
             case 8:
+                colorBoxLil.color = Color.yellow;
+                colorBoxBig.color = Color.yellow;
                 if (lang)
                 {
 
@@ -238,6 +266,8 @@ public class CardsManager : MonoBehaviour
                 }
                 break;
             case 9:
+                colorBoxLil.color = Color.yellow;
+                colorBoxBig.color = Color.yellow;
                 if (lang)
                 {
 
@@ -257,6 +287,8 @@ public class CardsManager : MonoBehaviour
                 }
                 break;
             case 10:
+                colorBoxLil.color = Color.yellow;
+                colorBoxBig.color = Color.yellow;
                 if (lang)
                 {
 
@@ -276,6 +308,8 @@ public class CardsManager : MonoBehaviour
                 }
                 break;
             case 11:
+                colorBoxLil.color = Color.yellow;
+                colorBoxBig.color = Color.yellow;
                 if (lang)
                 {
 
@@ -296,6 +330,8 @@ public class CardsManager : MonoBehaviour
                 }
                 break;
             case 12:
+                colorBoxLil.color = Color.yellow;
+                colorBoxBig.color = Color.yellow;
                 if (lang)
                 {
 
@@ -316,6 +352,8 @@ public class CardsManager : MonoBehaviour
                 }
                 break;
             case 13:
+                colorBoxLil.color = Color.yellow;
+                colorBoxBig.color = Color.yellow;
                 if (lang)
                 {
 
@@ -337,6 +375,8 @@ public class CardsManager : MonoBehaviour
                 }
                 break;
             case 14:
+                colorBoxLil.color = Color.yellow;
+                colorBoxBig.color = Color.yellow;
                 if (lang)
                 {
 
@@ -357,6 +397,8 @@ public class CardsManager : MonoBehaviour
                 }
                 break;
             case 15:
+                colorBoxLil.color = Color.yellow;
+                colorBoxBig.color = Color.yellow;
                 if (lang)
                 {
 
@@ -388,6 +430,8 @@ public class CardsManager : MonoBehaviour
                 }
                 break;
             case 16:
+                colorBoxLil.color = Color.yellow;
+                colorBoxBig.color = Color.yellow;
                 if (lang)
                 {
 
@@ -408,6 +452,8 @@ public class CardsManager : MonoBehaviour
                 }
                 break;
             case 17:
+                colorBoxLil.color = Color.yellow;
+                colorBoxBig.color = Color.yellow;
                 if (lang)
                 {
 
@@ -439,6 +485,8 @@ public class CardsManager : MonoBehaviour
                 }
                 break;
             case 18:
+                colorBoxLil.color = Color.yellow;
+                colorBoxBig.color = Color.yellow;
                 if (lang)
                 {
 
@@ -471,6 +519,8 @@ public class CardsManager : MonoBehaviour
                 }
                 break;
             case 19:
+                colorBoxLil.color = Color.yellow;
+                colorBoxBig.color = Color.yellow;
                 if (lang)
                 {
 
@@ -490,6 +540,8 @@ public class CardsManager : MonoBehaviour
                 }
                 break;
             case 20:
+                colorBoxLil.color = Color.yellow;
+                colorBoxBig.color = Color.yellow;
                 if (lang)
                 {
 
@@ -519,6 +571,8 @@ public class CardsManager : MonoBehaviour
                 }
                 break;
             case 21:
+                colorBoxLil.color = Color.red;
+                colorBoxBig.color = Color.red;
                 if (lang)
                 {
 
@@ -538,6 +592,8 @@ public class CardsManager : MonoBehaviour
                 }
                 break;
             case 22:
+                colorBoxLil.color = Color.red;
+                colorBoxBig.color = Color.red;
                 if (lang)
                 {
 
@@ -557,6 +613,8 @@ public class CardsManager : MonoBehaviour
                 }   
                 break;
             case 23:
+                colorBoxLil.color = Color.red;
+                colorBoxBig.color = Color.red;
                 if (lang)
                 {
 
@@ -594,6 +652,8 @@ public class CardsManager : MonoBehaviour
                 }
                 break;
             case 24:
+                colorBoxLil.color = Color.red;
+                colorBoxBig.color = Color.red;
                 if (lang)
                 {
 
@@ -628,6 +688,8 @@ public class CardsManager : MonoBehaviour
                 }
                 break;
             case 25:
+                colorBoxLil.color = Color.red;
+                colorBoxBig.color = Color.red;
                 if (lang)
                 {
 
@@ -647,6 +709,8 @@ public class CardsManager : MonoBehaviour
                 }
                 break;
             case 26:
+                colorBoxLil.color = Color.red;
+                colorBoxBig.color = Color.red;
                 if (lang)
                 {
 
@@ -666,6 +730,8 @@ public class CardsManager : MonoBehaviour
                 }
                 break;
             case 27:
+                colorBoxLil.color = Color.cyan;
+                colorBoxBig.color = Color.cyan;
                 if (lang)
                 {
 
@@ -685,6 +751,8 @@ public class CardsManager : MonoBehaviour
                 }
                 break;
             case 28:
+                colorBoxLil.color = Color.cyan;
+                colorBoxBig.color = Color.cyan;
                 if (lang)
                 {
                     Category.text = "Cases";
@@ -703,6 +771,8 @@ public class CardsManager : MonoBehaviour
                 }
                 break;
             case 29:
+                colorBoxLil.color = Color.cyan;
+                colorBoxBig.color = Color.cyan;
                 if (lang)
                 {
                     Category.text = "Cases";
@@ -721,6 +791,8 @@ public class CardsManager : MonoBehaviour
                 }
                 break;
             case 30:
+                colorBoxLil.color = Color.cyan;
+                colorBoxBig.color = Color.cyan;
                 if (lang)
                 {
 
@@ -740,6 +812,8 @@ public class CardsManager : MonoBehaviour
                 }
                 break;
             case 31:
+                colorBoxLil.color = Color.cyan;
+                colorBoxBig.color = Color.cyan;
                 if (lang)
                 {
 
@@ -759,6 +833,8 @@ public class CardsManager : MonoBehaviour
                 }
                 break;
             case 32:
+                colorBoxLil.color = Color.cyan;
+                colorBoxBig.color = Color.cyan;
                 if (lang)
                 {
 
@@ -778,6 +854,8 @@ public class CardsManager : MonoBehaviour
                 }
                 break;
             case 33:
+                colorBoxLil.color = Color.cyan;
+                colorBoxBig.color = Color.cyan;
                 if (lang)
                 {
 
@@ -797,6 +875,8 @@ public class CardsManager : MonoBehaviour
                 }
                 break;
             case 34:
+                colorBoxLil.color = Color.cyan;
+                colorBoxBig.color = Color.cyan;
                 if (lang)
                 {
 
@@ -834,6 +914,8 @@ public class CardsManager : MonoBehaviour
             BonusQuestion = BonusQuestion2;
             Answer = Answer2;
             BonusAnswer = BonusAnswer2;
+            colorBoxBig = colorBoxBig2;
+            colorBoxLil = colorBoxLil2;
         }
         else
         {
@@ -842,6 +924,8 @@ public class CardsManager : MonoBehaviour
             BonusQuestion = BonusQuestion1;
             Answer = Answer1;
             BonusAnswer = BonusAnswer1;
+            colorBoxBig = colorBoxBig1;
+            colorBoxLil = colorBoxLil1;
         }
     }
 
