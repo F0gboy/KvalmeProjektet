@@ -16,14 +16,17 @@ public class Question_Manager : MonoBehaviour
     private int totalCorrectAnswers = 4;
     public Statistic_ManagerPatofisiologi Statistic_ManagerPatofisiologi;
     public GameObject BackGround;
-    public Animator animator;
+    public Animator Stomach_animator;
     public float typingSpeed=0.004f;
-    
+    public Animator Brain_animator;
+   
+
     // Start is called before the first frame update
     void Start()
     {   
         GenerateQuestion();
         BackGround.SetActive(false);
+      
     }
     public void Restart()
     {
@@ -33,9 +36,12 @@ public class Question_Manager : MonoBehaviour
     public void Correct()
     {
         correctAnswersCount++;
-      
-
+       
         Statistic_ManagerPatofisiologi.CorrectAnswers++;
+        Brain_animator.SetBool("Trigger", true);
+        StartCoroutine(StopAnimation(1));
+        Stomach_animator.SetBool("Trigger", true);
+        StartCoroutine(StopStomachAnimation(1));
         if (correctAnswersCount == totalCorrectAnswers)
         {
             if (qNa.Count > 0)
@@ -90,5 +96,18 @@ public class Question_Manager : MonoBehaviour
             yield return new WaitForSeconds(typingSpeed);
         }
     }
-    
+    private IEnumerator StopAnimation(float seconds)
+    {
+        yield return new WaitForSeconds(seconds);
+
+        Brain_animator.SetBool("Trigger", false);
+       
+    }
+    private IEnumerator StopStomachAnimation(float seconds)
+    {
+        yield return new WaitForSeconds(seconds);
+
+        Stomach_animator.SetBool("Trigger", false);
+
+    }
 }

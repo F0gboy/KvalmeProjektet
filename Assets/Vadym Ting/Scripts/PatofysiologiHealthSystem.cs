@@ -11,8 +11,9 @@ public class PatofysiologiHealthSystem : MonoBehaviour
     public GameObject Background;
     public Statistic_ManagerPatofisiologi statistic;
     public Animator animator;
-   
-     void Start()
+    public Animator Brain_animator;
+
+    void Start()
     {
         Background.SetActive(false);
         UpdateHealthBoard();
@@ -25,6 +26,8 @@ public class PatofysiologiHealthSystem : MonoBehaviour
             life--;
             animator.SetBool("Triger", true);
             StartCoroutine(StopAnimation(1));
+            Brain_animator.SetBool("Wrong", true);
+            StartCoroutine(StopBrainAnimation(1));
             UpdateHealthBoard();
         }
         if (life<=0)
@@ -44,6 +47,12 @@ public class PatofysiologiHealthSystem : MonoBehaviour
         yield return new WaitForSeconds(seconds);
 
         animator.SetBool("Triger", false);
+    }
+    private IEnumerator StopBrainAnimation(float seconds)
+    {
+        yield return new WaitForSeconds(seconds);
+
+        Brain_animator.SetBool("Wrong", false);
     }
 
 }
