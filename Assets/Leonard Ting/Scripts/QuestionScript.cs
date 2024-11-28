@@ -10,6 +10,8 @@ public class QuestionScript : MonoBehaviour
     public bool lang;
 
     [SerializeField] private TMP_Text textObj;
+    [SerializeField] private GameObject quizObj;
+    [SerializeField] private GameObject winObj;
 
     public int id = 0;
     private int idLast = 0;
@@ -49,7 +51,7 @@ public class QuestionScript : MonoBehaviour
         return ts;
     }
 
-        private void Update()
+    private void Update()
     {
         if (id != idLast) 
         { 
@@ -60,8 +62,17 @@ public class QuestionScript : MonoBehaviour
 
     public void NextQuestion()
     {
+        if (numCount == 13)
+        {
+            winObj.SetActive(true);
+            quizObj.SetActive(false);
+        }
+        else
+        {
         id = questionQueue[numCount];
         numCount++; 
+
+        }
     }
 
     public void ChangeQuestion(int id)
