@@ -10,8 +10,10 @@ public class PatofysiologiHealthSystem : MonoBehaviour
     public Text Health_board;
     public GameObject Background;
     public Statistic_ManagerPatofisiologi statistic;
+    public Animator animator;
+    public Animator Brain_animator;
 
-     void Start()
+    void Start()
     {
         Background.SetActive(false);
         UpdateHealthBoard();
@@ -20,22 +22,37 @@ public class PatofysiologiHealthSystem : MonoBehaviour
     {
         if (life > 0)
         {
-
             statistic.WrongAnswer++;
             life--;
+            animator.SetBool("Triger", true);
+            StartCoroutine(StopAnimation(1));
+            Brain_animator.SetBool("Wrong", true);
+            StartCoroutine(StopBrainAnimation(1));
             UpdateHealthBoard();
         }
         if (life<=0)
         {
             Debug.Log("You don't have enough lifes");
             Background.SetActive(true);
-            statistic.Statistic();
-        
+            statistic.Statistic();       
         }
     }
     private void UpdateHealthBoard()
     {
         Health_board.text = life.ToString();
+    }
+
+    private IEnumerator StopAnimation(float seconds)
+    {
+        yield return new WaitForSeconds(seconds);
+
+        animator.SetBool("Triger", false);
+    }
+    private IEnumerator StopBrainAnimation(float seconds)
+    {
+        yield return new WaitForSeconds(seconds);
+
+        Brain_animator.SetBool("Wrong", false);
     }
 
 }
