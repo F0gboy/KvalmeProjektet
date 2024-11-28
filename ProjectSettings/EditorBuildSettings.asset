@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Quiz.unity
     guid: 80e9aea017ba5f54b9f001341a581bf5
+  - enabled: 1
+    path: Assets/Vadym Ting/Scenes/Patofysiologi.unity
+    guid: d595d3cc8b09f324f9ee63fe69903167
   m_configObjects: {}
