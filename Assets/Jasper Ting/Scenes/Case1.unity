@@ -1067,6 +1067,7 @@ GameObject:
   - component: {fileID: 383563812}
   - component: {fileID: 383563811}
   - component: {fileID: 383563810}
+  - component: {fileID: 383563813}
   m_Layer: 5
   m_Name: Text (TMP) (2)
   m_TagString: Untagged
@@ -1235,6 +1236,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 383563808}
   m_CullTransparentMesh: 1
+--- !u!114 &383563813
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 383563808}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f831c0343311044a91f68debd498537, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lang: 0
+  textObj: {fileID: 383563811}
+  denText: "V\xE6lg 5 svar!"
+  engText: Choose 5 answers!
 --- !u!1 &383789855
 GameObject:
   m_ObjectHideFlags: 0
@@ -1368,6 +1385,7 @@ GameObject:
   - component: {fileID: 480391617}
   - component: {fileID: 480391616}
   - component: {fileID: 480391614}
+  - component: {fileID: 480391618}
   m_Layer: 5
   m_Name: Text (TMP) (1)
   m_TagString: Untagged
@@ -1536,6 +1554,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 480391612}
   m_CullTransparentMesh: 1
+--- !u!114 &480391618
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 480391612}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f831c0343311044a91f68debd498537, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lang: 0
+  textObj: {fileID: 480391616}
+  denText: "Hvilke \xE5rsager\\nkunne der v\xE6re?"
+  engText: What reasons\ncould there be?
 --- !u!1 &514952279
 GameObject:
   m_ObjectHideFlags: 0
@@ -3270,6 +3304,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: be0b5786fad96f44db29f07113e2ef9f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  lang: 0
+  RightAnswersDK:
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  RightAnswersEN:
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
   RightAnswers:
   - Ileus
   - Svampeinfektion i mund og hals
@@ -3279,6 +3332,16 @@ MonoBehaviour:
   - "Str\xE5lebehandling"
   - Mavesyre
   - Metastaser
+  WrongAnswersDK:
+  - 
+  - 
+  - 
+  - 
+  WrongAnswersEN:
+  - 
+  - 
+  - 
+  - 
   WrongAnswers:
   - For lavt blodtryk
   - "S\xF8vnmangel"
@@ -5067,6 +5130,7 @@ GameObject:
   - component: {fileID: 1764679023}
   - component: {fileID: 1764679025}
   - component: {fileID: 1764679024}
+  - component: {fileID: 1764679026}
   m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -5190,6 +5254,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1764679022}
   m_CullTransparentMesh: 1
+--- !u!114 &1764679026
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1764679022}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f831c0343311044a91f68debd498537, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lang: 0
+  textObj: {fileID: 1764679024}
+  denText: "Tryk for n\xE6ste....."
+  engText: Click for next.....
 --- !u!1 &1775625407
 GameObject:
   m_ObjectHideFlags: 0
@@ -5335,6 +5415,7 @@ GameObject:
   - component: {fileID: 1779244338}
   - component: {fileID: 1779244340}
   - component: {fileID: 1779244339}
+  - component: {fileID: 1779244341}
   m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -5458,6 +5539,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1779244337}
   m_CullTransparentMesh: 1
+--- !u!114 &1779244341
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1779244337}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f831c0343311044a91f68debd498537, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lang: 0
+  textObj: {fileID: 1779244339}
+  denText: Svar
+  engText: Answer
 --- !u!1 &1848793835
 GameObject:
   m_ObjectHideFlags: 0

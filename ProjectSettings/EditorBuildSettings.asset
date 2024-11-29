@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Vadym Ting/Scenes/Patofysiologi.unity
     guid: d595d3cc8b09f324f9ee63fe69903167
+  - enabled: 1
+    path: Assets/Scenes/Kvalmeanamese.unity
+    guid: f081b3a113b4bd64db6ca77ee123a3fc
   m_configObjects: {}
