@@ -11,7 +11,13 @@ namespace TMPro.Examples
         //[Range(0, 100)]
         //public int RevealSpeed = 50;
 
+        public bool lang;
+
+        public string[] MessagesDK;
+        public string[] MessagesEN;
+
         public string[] Messages;
+        
 
         public GameObject NextText;
 
@@ -24,6 +30,19 @@ namespace TMPro.Examples
 
         void Awake()
         {
+
+            GameObject temp = GameObject.FindGameObjectWithTag("Language");
+            if (temp.GetComponent<LanguageScript>().langNum == 0) { lang = true; }
+
+            if (lang)
+            {
+                Messages = MessagesDK;
+            }
+            else
+            {
+                Messages = MessagesEN;
+            }
+
             // Get Reference to TextMeshPro Component
             m_textMeshPro = GetComponent<TMP_Text>();
             m_textMeshPro.text = Messages[0];
