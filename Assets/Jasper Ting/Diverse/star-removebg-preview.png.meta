@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 04486bb78dc4ca746951cf28421e7612
+guid: 1dc1641c55bb808408f1b935d172bd96
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -95,49 +95,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites:
-    - serializedVersion: 2
-      name: Mave_animation__1_-removebg-preview (1)_0
-      rect:
-        serializedVersion: 2
-        x: 218
-        y: 634
-        width: 116
-        height: 173
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b56d451a6a210104ab6055d5adce651d
-      internalID: 391248009
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mave_animation__1_-removebg-preview (1)_1
-      rect:
-        serializedVersion: 2
-        x: 204
-        y: 169
-        width: 117
-        height: 174
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 84360839ac0af5f448ef044160f4608a
-      internalID: 248421728
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
+    sprites: []
     outline: []
     physicsShape: []
     bones: []
@@ -148,9 +106,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      Mave_animation__1_-removebg-preview (1)_0: 391248009
-      Mave_animation__1_-removebg-preview (1)_1: 248421728
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

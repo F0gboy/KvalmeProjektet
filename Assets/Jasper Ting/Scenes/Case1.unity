@@ -3280,10 +3280,10 @@ MonoBehaviour:
   - Mavesyre
   - Metastaser
   WrongAnswers:
-  - Forkert
-  - Forkert
-  - Forkert
-  - Forkert
+  - For lavt blodtryk
+  - "S\xF8vnmangel"
+  - Overdreven fysisk aktivitet
+  - Forkert kropsholdning under spisning
   Guesses: 5
   Buttons:
   - {fileID: 1957490989}

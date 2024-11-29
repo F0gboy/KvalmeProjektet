@@ -3099,11 +3099,11 @@ MonoBehaviour:
   - Har hun Feber?
   - "Har hun hovedpine/migr\xE6ne?"
   WrongAnswers:
-  - 2
-  - 2
-  - 2
-  - 2
-  - 2
+  - Har hun sovet for meget?
+  - "Er gardinerne \xE5rsagen til hendes kvalme?"
+  - Har hun overanstrengt sig fysisk for nylig?
+  - "Er hun allergisk over for bestemte f\xF8devarer?"
+  - "Har hun f\xE5et sollys nok?"
   Guesses: 5
   Buttons:
   - {fileID: 1957490989}

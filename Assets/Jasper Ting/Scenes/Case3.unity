@@ -3098,12 +3098,12 @@ MonoBehaviour:
   - Har han feber?
   - Hvor mobil er han?
   WrongAnswers:
-  - Forkert
-  - Forkert
-  - Forkert
-  - Forkert
-  - Forkert
-  - Forkert
+  - Har han hovedpine?
+  - Er han allergisk?
+  - Tager han vitaminer?
+  - Hvad har han spist?
+  - Er han stresset?
+  - Sover han nok?
   Guesses: 5
   Buttons:
   - {fileID: 1957490989}

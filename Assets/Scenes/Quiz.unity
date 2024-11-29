@@ -1982,6 +1982,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lang: 0
+  colorBoxBig1: {fileID: 1199241097}
+  colorBoxLil1: {fileID: 923075771}
+  colorBoxBig2: {fileID: 35381064}
+  colorBoxLil2: {fileID: 1328373600}
   cardQueue: 
   Category1: {fileID: 938254585}
   Question1: {fileID: 236311330}
