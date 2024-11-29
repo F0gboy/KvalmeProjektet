@@ -163,8 +163,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 210, y: -47}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: 228.67238, y: -5.6346}
+  m_SizeDelta: {x: 197.3448, y: 112.7308}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &41889518
 MonoBehaviour:
@@ -180,8 +180,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rotationCenter: {fileID: 1278463691}
   button: {fileID: 41889524}
-  rotationRadius: 150
-  angularSpeed: 2
+  rotationRadius: 280
+  angularSpeed: 0.6
 --- !u!114 &41889519
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -358,8 +358,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -116, y: -117.08247}
-  m_SizeDelta: {x: 71.61322, y: -58.292725}
+  m_AnchoredPosition: {x: -293, y: 87}
+  m_SizeDelta: {x: 104.62, y: 23.077}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &88814390
 MonoBehaviour:
@@ -1272,8 +1272,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 210, y: -47}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: 228.67238, y: -5.6346}
+  m_SizeDelta: {x: 197.3448, y: 112.7308}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &490617540
 MonoBehaviour:
@@ -1289,8 +1289,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rotationCenter: {fileID: 1278463691}
   button: {fileID: 490617546}
-  rotationRadius: 150
-  angularSpeed: 0.5
+  rotationRadius: 280
+  angularSpeed: 0.8
 --- !u!114 &490617541
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2080,8 +2080,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 210, y: -47}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: 228.67238, y: -5.6346}
+  m_SizeDelta: {x: 197.3448, y: 112.7308}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1001959201
 MonoBehaviour:
@@ -2139,8 +2139,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rotationCenter: {fileID: 1278463691}
   button: {fileID: 1001959207}
-  rotationRadius: 150
-  angularSpeed: 1.5
+  rotationRadius: 280
+  angularSpeed: 0.5
 --- !u!114 &1001959204
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2281,8 +2281,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 210, y: -47}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: 228.67238, y: -5.6346}
+  m_SizeDelta: {x: 197.3448, y: 112.7308}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1019308588
 MonoBehaviour:
@@ -2340,8 +2340,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rotationCenter: {fileID: 1278463691}
   button: {fileID: 1019308594}
-  rotationRadius: 150
-  angularSpeed: 1.5
+  rotationRadius: 280
+  angularSpeed: 0.7
 --- !u!114 &1019308591
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2482,8 +2482,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 214, y: -47}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: 233.60605, y: -5.6346}
+  m_SizeDelta: {x: 197.3448, y: 112.7308}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1133482532
 MonoBehaviour:
@@ -2581,7 +2581,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rotationCenter: {fileID: 1133482531}
   button: {fileID: 1133482538}
-  rotationRadius: 150
+  rotationRadius: 280
   angularSpeed: 1
 --- !u!114 &1133482536
 MonoBehaviour:
@@ -2677,8 +2677,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -204.604, y: -148.70097}
-  m_SizeDelta: {x: 290.7926, y: 44.97046}
+  m_AnchoredPosition: {x: -292.62073, y: -34.668365}
+  m_SizeDelta: {x: 114.7592, y: 273.0358}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1144912698
 MonoBehaviour:
@@ -2909,7 +2909,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9215048774222619832, guid: 2ea8afb94677abe4584fe35c2c82ae1a, type: 3}
       propertyPath: m_Color.a
-      value: 0.3254902
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3090,7 +3090,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 10.8087, y: -207.07509}
+  m_AnchoredPosition: {x: -152.60931, y: -55.52748}
   m_SizeDelta: {x: 42.4695, y: 35.2127}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1554173157
@@ -3171,8 +3171,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 210, y: -47}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: 228.67238, y: -5.6346}
+  m_SizeDelta: {x: 197.3448, y: 112.7308}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1596152785
 MonoBehaviour:
@@ -3188,8 +3188,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rotationCenter: {fileID: 1278463691}
   button: {fileID: 1596152791}
-  rotationRadius: 150
-  angularSpeed: 1.5
+  rotationRadius: 280
+  angularSpeed: 0.5
 --- !u!114 &1596152786
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3416,8 +3416,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -208, y: -178.08247}
-  m_SizeDelta: {x: 71.61322, y: -58.292725}
+  m_AnchoredPosition: {x: -292.9, y: -159}
+  m_SizeDelta: {x: 104.42, y: 23.377}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1620879690
 MonoBehaviour:
@@ -3491,7 +3491,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -321.6, y: -9.5}
+  m_AnchoredPosition: {x: -103, y: -149}
   m_SizeDelta: {x: 179.7584, y: 158}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1687879552
@@ -3598,27 +3598,13 @@ MonoBehaviour:
   - {fileID: 1019308586}
   - {fileID: 1001959199}
   answer1RightDK:
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Forebygge kvalme og opkastning
+  - Giver bedst mulig antiemetisk behandling
+  - identificere eventuelle patientrelaterede risikofaktorer
   answer1RightEN:
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - To prevent nausea and vomiting.
+  - To ensure the best possible antiemetic treatment is given.
+  - To identify any patient-related risk factors.
   answer1WrongDK:
   - 
   - 
@@ -3642,27 +3628,13 @@ MonoBehaviour:
   - 
   - 
   answer2RightDK:
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - "Daglige aktiviteter indskr\xE6nkes"
+  - "Risiko for medicinske kr\xE6ftbehandling ikke kan gives"
+  - Livskvalitet blive forringet
   answer2RightEN:
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Daily activities may be restricted
+  - Risk that the medical cancer treatment cannot be administered.
+  - Quality of life may deteriorate.
   answer2WrongDK:
   - 
   - 
@@ -3686,27 +3658,11 @@ MonoBehaviour:
   - 
   - 
   answer3RightDK:
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - "F\xF8r hver behandling"
+  - Ved gennembrudskvalme eller -opkastning
   answer3RightEN:
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Before each treatment
+  - In case of breakthrough nausea or vomiting
   answer3WrongDK:
   - 
   - 
@@ -3730,27 +3686,21 @@ MonoBehaviour:
   - 
   - 
   answer4RightDK:
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - "Tidligere behandling med medicinsk kr\xE6ftbehandling"
+  - "K\xF8n"
+  - Alder
+  - Psykologiske faktorer
+  - "Tr\xE6thed"
+  - Alkohol
+  - Tidligere erfaring med kvalme
   answer4RightEN:
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Previous treatment with medical cancer treatment
+  - Gender
+  - Age
+  - Psychological factors
+  - Fatigue
+  - Alcohol
+  - Previous experience with nausea
   answer4WrongDK:
   - 
   - 
@@ -3774,27 +3724,19 @@ MonoBehaviour:
   - 
   - 
   answer5RightDK:
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - "Er det mere end 5 dage siden de sidst har f\xE5et behandling"
+  - Kvalme intensitet
+  - 'Tidspunkt for symptom: akut (0-24 t) eller sen fase (25-120 t)'
+  - "H\xF8jeste antal af evt opkastninger i en 24- timers periode"
+  - Kunne patienten spise og drikke, mens der var symptomer?
+  - "Hvilke antiemetika blev indtaget og hvorn\xE5r?"
   answer5RightEN:
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Has it been more than 5 days since last received treatment
+  - Nausea intensity
+  - 'Onset of symptoms: acute (0-24 hours) or late phase (25-120 hours)'
+  - Highest number of possible vomits in a 24-hour period
+  - Could the patient eat and drink while experiencing symptoms?
+  - Which antiemetics were taken and when?
   answer5WrongDK:
   - 
   - 
@@ -3818,27 +3760,29 @@ MonoBehaviour:
   - 
   - 
   answer6RightDK:
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Sygdomsudbredning
+  - Sygdommens placering
+  - Elektrolytbalance
+  - Medicin
+  - Sult
+  - Dyspepsi
+  - Smerter
+  - "Tr\xE6thed"
+  - Svampeinfektion i mund og hals
+  - Obstipation
+  - "Reaktion p\xE5 str\xE5leterapi"
   answer6RightEN:
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Disease progression
+  - Location of the disease
+  - Electrolyte balance
+  - Medication
+  - Hunger
+  - Dyspepsia
+  - Pain
+  - Fatigue
+  - Fungal infection in the mouth and throat
+  - Constipation
+  - Reaction to radiation therapy
   answer6WrongDK:
   - 
   - 
@@ -3862,27 +3806,25 @@ MonoBehaviour:
   - 
   - 
   answer7RightDK:
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Drikke rigeligt
+  - "Let m\xE5ltid f\xF8r behandling"
+  - "Lette m\xE5ltider generelt"
+  - "B\xE6re l\xF8sth\xE6ngende bekvemt t\xF8j"
+  - Adspredelse
+  - God mundhygiejne/pleje
+  - Fysisk aktivitet
+  - Rolige omgivelser
+  - "Sygeplejerskens tilstedev\xE6relse kan d\xE6mpe angst"
   answer7RightEN:
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Drink plenty of fluids
+  - Light meal before treatment
+  - Light meals in general
+  - Wear loose, comfortable clothing
+  - Distraction
+  - Good oral hygiene/care
+  - Physical activity
+  - Calm surroundings
+  - Presence of the nurse can reduce anxiety
   answer7WrongDK:
   - 
   - 
@@ -3906,27 +3848,19 @@ MonoBehaviour:
   - 
   - 
   answer8RightDK:
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - "Forh\xF8jet puls"
+  - Hjertebanken
+  - Bleghed
+  - Kold og klamtsvedende
+  - "\xD8get spytsekretion"
+  - Madlede
   answer8RightEN:
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Increased pulse
+  - Palpitations
+  - Pallor
+  - Cold and clammy sweat
+  - Increased saliva secretion
+  - Aversion to food
   answer8WrongDK:
   - 
   - 
@@ -3950,27 +3884,21 @@ MonoBehaviour:
   - 
   - 
   answer9RightDK:
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - "Kold klud p\xE5 panden"
+  - "Afsk\xE6rmning og skabe ro omkring patienten"
+  - Bliv ved patienten, hvis muligt
+  - "S\xF8rg for at de har noget at kaste op i"
+  - Tilbyde vand
+  - Frisk luft
+  - Giv evt. pn antiemetika
   answer9RightEN:
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Cold cloth on the forehead
+  - Shielding and creating calm around the patient
+  - Stay with the patient, if possible
+  - Ensure the patient has something to vomit into
+  - Offer water
+  - Fresh air
+  - Possibly give pn antiemetics
   answer9WrongDK:
   - 
   - 
@@ -4125,8 +4053,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 210, y: -47}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: 228.67238, y: -5.6346}
+  m_SizeDelta: {x: 197.3448, y: 112.7308}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1844371242
 MonoBehaviour:
@@ -4184,8 +4112,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rotationCenter: {fileID: 1278463691}
   button: {fileID: 1844371248}
-  rotationRadius: 150
-  angularSpeed: 1.5
+  rotationRadius: 280
+  angularSpeed: 0.4
 --- !u!114 &1844371245
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4320,8 +4248,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -300, y: -117.08247}
-  m_SizeDelta: {x: 71.61322, y: -58.292725}
+  m_AnchoredPosition: {x: -293, y: -36}
+  m_SizeDelta: {x: 104.8223, y: 22.7894}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1888839985
 MonoBehaviour:
@@ -4669,8 +4597,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 210, y: -47}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: 228.67238, y: -5.6346}
+  m_SizeDelta: {x: 197.3448, y: 112.7308}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2067820630
 MonoBehaviour:
@@ -4728,8 +4656,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rotationCenter: {fileID: 1278463691}
   button: {fileID: 2067820636}
-  rotationRadius: 150
-  angularSpeed: 1.5
+  rotationRadius: 280
+  angularSpeed: 0.9
 --- !u!114 &2067820633
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4865,7 +4793,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 11.418, y: -137.5476}
+  m_AnchoredPosition: {x: -152, y: 14}
   m_SizeDelta: {x: 41.252, y: 48.2878}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2090793346
