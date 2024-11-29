@@ -2579,7 +2579,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d356d1c9f1939d4bade30d43ed9e61a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationCenter: {fileID: 1133482531}
+  rotationCenter: {fileID: 1278463691}
   button: {fileID: 1133482538}
   rotationRadius: 280
   angularSpeed: 1
@@ -3588,6 +3588,9 @@ MonoBehaviour:
   IDManager: {fileID: 1354025694}
   qstScript: {fileID: 960906277}
   lang: 0
+  right1: {fileID: 0}
+  right2: {fileID: 0}
+  right3: {fileID: 0}
   answerObjects:
   - {fileID: 1133482530}
   - {fileID: 490617538}
