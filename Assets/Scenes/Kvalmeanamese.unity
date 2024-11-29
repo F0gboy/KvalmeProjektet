@@ -2579,7 +2579,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d356d1c9f1939d4bade30d43ed9e61a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationCenter: {fileID: 1133482531}
+  rotationCenter: {fileID: 1278463691}
   button: {fileID: 1133482538}
   rotationRadius: 150
   angularSpeed: 1
@@ -3588,6 +3588,9 @@ MonoBehaviour:
   IDManager: {fileID: 1354025694}
   qstScript: {fileID: 960906277}
   lang: 0
+  right1: {fileID: 0}
+  right2: {fileID: 0}
+  right3: {fileID: 0}
   answerObjects:
   - {fileID: 1133482530}
   - {fileID: 490617538}
@@ -3598,16 +3601,16 @@ MonoBehaviour:
   - {fileID: 1019308586}
   - {fileID: 1001959199}
   answer1RightDK:
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - 111111111111111
+  - 111111111111111
+  - 111111111111111
+  - 111111111111111
+  - v
+  - v
+  - v
+  - v
+  - v
+  - v
   answer1RightEN:
   - 
   - 
@@ -3642,16 +3645,16 @@ MonoBehaviour:
   - 
   - 
   answer2RightDK:
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - v
+  - v
+  - v
+  - v
+  - v
+  - v
+  - v
+  - v
+  - v
+  - v
   answer2RightEN:
   - 
   - 
@@ -3686,16 +3689,16 @@ MonoBehaviour:
   - 
   - 
   answer3RightDK:
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - v
+  - v
+  - vv
+  - v
+  - v
+  - v
+  - v
+  - v
+  - v
+  - v
   answer3RightEN:
   - 
   - 
@@ -3730,16 +3733,16 @@ MonoBehaviour:
   - 
   - 
   answer4RightDK:
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - v
+  - vv
+  - v
+  - v
+  - v
+  - v
+  - v
+  - vv
+  - v
+  - v
   answer4RightEN:
   - 
   - 
@@ -3774,16 +3777,16 @@ MonoBehaviour:
   - 
   - 
   answer5RightDK:
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - v
+  - v
+  - v
+  - v
+  - v
+  - v
+  - v
+  - v
+  - v
+  - v
   answer5RightEN:
   - 
   - 
@@ -3818,16 +3821,16 @@ MonoBehaviour:
   - 
   - 
   answer6RightDK:
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - v
+  - v
+  - v
+  - v
+  - v
+  - v
+  - v
+  - v
+  - v
+  - v
   answer6RightEN:
   - 
   - 
@@ -3862,16 +3865,16 @@ MonoBehaviour:
   - 
   - 
   answer7RightDK:
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - v
+  - v
+  - v
+  - v
+  - v
+  - v
+  - v
+  - v
+  - v
+  - v
   answer7RightEN:
   - 
   - 
@@ -3906,16 +3909,16 @@ MonoBehaviour:
   - 
   - 
   answer8RightDK:
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - v
+  - v
+  - v
+  - v
+  - v
+  - v
+  - v
+  - v
+  - v
+  - v
   answer8RightEN:
   - 
   - 
@@ -3950,16 +3953,16 @@ MonoBehaviour:
   - 
   - 
   answer9RightDK:
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - v
+  - v
+  - v
+  - v
+  - v
+  - v
+  - v
+  - v
+  - v
+  - v
   answer9RightEN:
   - 
   - 

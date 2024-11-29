@@ -12,9 +12,9 @@ public class KvalmeAnswerScript : MonoBehaviour
     private int ID;
     private List<KvlameAnswerButton1> answerBoxes = new List<KvlameAnswerButton1>();
 
-    private KvlameAnswerButton1 right1 = null;
-    private KvlameAnswerButton1 right2 = null;
-    private KvlameAnswerButton1 right3 = null;
+    [SerializeField] private KvlameAnswerButton1 right1 = null;
+    [SerializeField] private KvlameAnswerButton1 right2 = null;
+    [SerializeField] private KvlameAnswerButton1 right3 = null;
 
     
     [SerializeField] private List<GameObject> answerObjects = new List<GameObject>();
@@ -172,6 +172,7 @@ public class KvalmeAnswerScript : MonoBehaviour
        
         answerBoxes[temp1].rightAnswer = true;
         answerBoxes[temp2].rightAnswer = true;
+        answerBoxes[temp3].rightAnswer = true;
         right1 = answerBoxes[temp1];
         right2 = answerBoxes[temp2];
         right3 = answerBoxes[temp3];
