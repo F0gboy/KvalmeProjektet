@@ -2455,7 +2455,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4edf050852ca9c24f9aaa6adf30ed657, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SceneName: MainScene
+  SceneName: Kvalmeanamese
 --- !u!114 &1647526040
 MonoBehaviour:
   m_ObjectHideFlags: 0
