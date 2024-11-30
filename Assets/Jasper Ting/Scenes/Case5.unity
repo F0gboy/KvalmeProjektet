@@ -1932,8 +1932,8 @@ MonoBehaviour:
   - Hvilken PN antiemetika har hun taget?
   - "Kan det v\xE6re ekstrapyramidale bivirkinger (EPS) for\xE5rsaget af medicinen?"
   WrongAnswers:
-  - Forkert
-  - Forkert
+  - "Har hun spist noget, hun ikke kan t\xE5le?"
+  - "Kan det v\xE6re stress, der for\xE5rsager hendes symptomer?"
   Guesses: 2
   Buttons:
   - {fileID: 1957490989}

@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class AnswerScriptPatofysiologi : MonoBehaviour
+public class AnswerScript : MonoBehaviour
 {
 
     [SerializeField] private GameObject IDManager;
@@ -117,6 +117,9 @@ public class AnswerScriptPatofysiologi : MonoBehaviour
         if (right1.clicked && right2.clicked && right3.clicked)
         {
             qstScript.NextQuestion();
+            right1.clicked = false;
+            right2.clicked = false;
+            right3.clicked = false;
         }
         if (ID != IDManager.GetComponent<IDManagerScript>().id)
         {

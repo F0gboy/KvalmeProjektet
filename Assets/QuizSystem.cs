@@ -9,8 +9,18 @@ public class QuizSystem : MonoBehaviour
 {
     // Start is called before the first frame update
 
+    public bool lang;
+
+    [SerializeField] private List<string> RightAnswersDK = new List<string>();
+    [SerializeField] private List<string> RightAnswersEN = new List<string>();
+    
+
     public List<string> RightAnswers = new List<string>();
     private List<string> RightAnswersCopy = new List<string>();
+
+
+    [SerializeField] private List<string> WrongAnswersDK = new List<string>();
+    [SerializeField] private List<string> WrongAnswersEN = new List<string>();
     public List<string> WrongAnswers = new List<string>();
     public List<List<string>> AnswerLists = new List<List<string>>();
 
@@ -24,6 +34,22 @@ public class QuizSystem : MonoBehaviour
 
     void Start()
     {
+
+
+        GameObject temp = GameObject.FindGameObjectWithTag("Language");
+        if (temp.GetComponent<LanguageScript>().langNum == 0) { lang = true; }
+
+        if (lang)
+        {
+            RightAnswers = RightAnswersDK;
+            WrongAnswers = WrongAnswersDK;
+        }
+        else
+        {
+            RightAnswers = RightAnswersEN;
+            WrongAnswers = WrongAnswersEN;
+        }
+        
         AnswerLists.Add(RightAnswers);
         AnswerLists.Add(WrongAnswers);
 

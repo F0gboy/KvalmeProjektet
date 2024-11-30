@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
@@ -12,6 +13,10 @@ public class QuestionScript : MonoBehaviour
     [SerializeField] private TMP_Text textObj;
     [SerializeField] private GameObject quizObj;
     [SerializeField] private GameObject winObj;
+
+    public Animator[] animators;
+    public Animator[] MoveCharacters;
+    private int s = 0;
 
     public int id = 0;
     private int idLast = 0;
@@ -69,15 +74,24 @@ public class QuestionScript : MonoBehaviour
         }
         else
         {
-        id = questionQueue[numCount];
-        numCount++; 
+            animators[s].SetTrigger("run");
+            id = questionQueue[numCount];
+            numCount++;
 
+            s++;
+
+            if (s == 7)
+            {
+                foreach (var item in MoveCharacters)
+                {
+                    item.SetTrigger("Move");
+                }
+            }
         }
     }
 
     public void ChangeQuestion(int id)
     {
-
         switch (id)
         {
             case 1:

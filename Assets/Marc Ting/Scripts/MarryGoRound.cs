@@ -7,6 +7,8 @@ public class MarryGoRound : MonoBehaviour
     [SerializeField]
     Transform rotationCenter;
 
+    [SerializeField] KvlameAnswerButton1 button;
+
     [SerializeField]
     float rotationRadius = 2f, angularSpeed = 2f;
     
@@ -18,12 +20,22 @@ public class MarryGoRound : MonoBehaviour
     {
         float random = Random.Range(0, 360);
         angle = random;
+        angularSpeed = Random.Range(0.5f, 2.1f);
     }
 
 
 
     void Update()
     {
+        if (isPlaced)
+        {
+            button.clicked = true;
+        }
+        else
+        {
+            button.clicked = false;
+        }
+
         if (!isDragging && !isPlaced)
         {
             posX = rotationCenter.position.x + Mathf.Cos(angle) * rotationRadius;
@@ -44,5 +56,6 @@ public class MarryGoRound : MonoBehaviour
     public void SetPlaced(bool placed)
     {
         isPlaced = placed;
+        angularSpeed = Random.Range(0.5f, 2.1f);
     }
 }
