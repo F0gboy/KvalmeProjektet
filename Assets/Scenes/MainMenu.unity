@@ -2179,7 +2179,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4edf050852ca9c24f9aaa6adf30ed657, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SceneName: ting
+  SceneName: Case1
 --- !u!1 &1588154897
 GameObject:
   m_ObjectHideFlags: 0
