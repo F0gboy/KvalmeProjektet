@@ -9,6 +9,7 @@ public class PatofysiologiAnswerScript : MonoBehaviour
     public Question_Manager question_Manager;
     Image buttonImage;
     private PatofysiologiHealthSystem patofysiologiHealthSystem;
+    
   
     [SerializeField]
     private Statistic_ManagerPatofisiologi statistic_ManagerPatofisiologi;
@@ -19,10 +20,11 @@ public class PatofysiologiAnswerScript : MonoBehaviour
     private void Start()
     {
         patofysiologiHealthSystem = FindObjectOfType<PatofysiologiHealthSystem>();
+      
     
         buttonImage = GetComponent<Image>();
     }
-
+    
     public void Answer()
     {
         if (isCorrect)

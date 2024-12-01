@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -14,9 +15,11 @@ public class Question_Manager : MonoBehaviour
     public GameObject[] options;
     public int currentIndexQuestion;
     public Text questionPanelText;
-    private QuestionAndAnsvers questionAndAnsvers;  
-    private int correctAnswersCount = 0; 
-    private int totalCorrectAnswers = 4;
+    private QuestionAndAnsvers questionAndAnsvers;
+    private int correctAnswersCount=0;
+    //private int totalCorrectAnswers = 4;
+
+
     public Statistic_ManagerPatofisiologi Statistic_ManagerPatofisiologi;
     public GameObject BackGround;
     public Animator Stomach_animator;
@@ -41,29 +44,29 @@ public class Question_Manager : MonoBehaviour
         BackGround.SetActive(false);
       
     }
-    public void Restart()
-    {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+  
 
-    }
     public void Correct()
     {
-        correctAnswersCount++;
-       
         Statistic_ManagerPatofisiologi.CorrectAnswers++;
+
         Brain_animator.SetBool("Trigger", true);
         StartCoroutine(StopAnimation(1));
         Stomach_animator.SetBool("Trigger", true);
         StartCoroutine(StopStomachAnimation(1));
-        if (correctAnswersCount == totalCorrectAnswers)
+
+        //correctAnswersCount = 0;
+        correctAnswersCount++;
+       
+        if (correctAnswersCount == qNa[currentIndexQuestion].CorrectAnswer.Count)
         {
             if (qNa.Count > 0)
             {
+
                 qNa.RemoveAt(currentIndexQuestion);
                 GenerateQuestion();
             }
         }
-     
 
     }
     private void SetAnswer()
@@ -76,11 +79,11 @@ public class Question_Manager : MonoBehaviour
 
 
             if (qNa[currentIndexQuestion].CorrectAnswer.Contains(i + 1))
-                {
-               
-                    options[i].GetComponent<PatofysiologiAnswerScript>().isCorrect = true;
-                }
-          
+            {
+
+                options[i].GetComponent<PatofysiologiAnswerScript>().isCorrect = true;
+            }
+
         }
     }
     private void GenerateQuestion()
@@ -88,7 +91,7 @@ public class Question_Manager : MonoBehaviour
         if (qNa.Count > 0)
         {
             currentIndexQuestion = Random.Range(0, qNa.Count);
-            //questionPanelText.text = qNa[currentIndexQuestion].Question;
+            questionAndAnsvers = qNa[currentIndexQuestion];
             StartCoroutine(DisplayLine(qNa[currentIndexQuestion].Question));
             SetAnswer();
             correctAnswersCount = 0;

@@ -198,85 +198,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 32564634}
   m_CullTransparentMesh: 1
---- !u!1 &49719670
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 49719671}
-  - component: {fileID: 49719673}
-  - component: {fileID: 49719672}
-  m_Layer: 5
-  m_Name: Text (Legacy)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &49719671
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 49719670}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1201830620}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &49719672
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 49719670}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
-    m_FontStyle: 1
-    m_BestFit: 0
-    m_MinSize: 10
-    m_MaxSize: 40
-    m_Alignment: 4
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: Restart
---- !u!222 &49719673
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 49719670}
-  m_CullTransparentMesh: 1
 --- !u!1 &130112113
 GameObject:
   m_ObjectHideFlags: 0
@@ -480,74 +401,6 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 2.14, y: 1.16, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &437808176
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 437808179}
-  - component: {fileID: 437808178}
-  - component: {fileID: 437808177}
-  m_Layer: 0
-  m_Name: EventSystem
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &437808177
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 437808176}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SendPointerHoverToParent: 1
-  m_HorizontalAxis: Horizontal
-  m_VerticalAxis: Vertical
-  m_SubmitButton: Submit
-  m_CancelButton: Cancel
-  m_InputActionsPerSecond: 10
-  m_RepeatDelay: 0.5
-  m_ForceModuleActive: 0
---- !u!114 &437808178
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 437808176}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_FirstSelected: {fileID: 0}
-  m_sendNavigationEvents: 1
-  m_DragThreshold: 10
---- !u!4 &437808179
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 437808176}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1867,7 +1720,7 @@ MonoBehaviour:
   lang: 0
   correctAnswerText: {fileID: 768991536}
   buttons:
-  - {fileID: 1201830619}
+  - {fileID: 0}
   - {fileID: 1190639764}
 --- !u!1 &1190639764
 GameObject:
@@ -1906,7 +1759,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.8, y: -78.2}
+  m_AnchoredPosition: {x: -0.8, y: -38}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1190639766
@@ -2016,139 +1869,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SceneName: Patofysiologi
---- !u!1 &1201830619
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1201830620}
-  - component: {fileID: 1201830623}
-  - component: {fileID: 1201830622}
-  - component: {fileID: 1201830621}
-  m_Layer: 5
-  m_Name: Button. Start Game Igen
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1201830620
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1201830619}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.4767177, y: 1.4767177, z: 1.4767177}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 49719671}
-  m_Father: {fileID: 1266874488}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1.3, y: -34.5}
-  m_SizeDelta: {x: 160, y: 30}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1201830621
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1201830619}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Navigation:
-    m_Mode: 3
-    m_WrapAround: 0
-    m_SelectOnUp: {fileID: 0}
-    m_SelectOnDown: {fileID: 0}
-    m_SelectOnLeft: {fileID: 0}
-    m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
-  m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
-    m_ColorMultiplier: 1
-    m_FadeDuration: 0.1
-  m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 0}
-    m_SelectedSprite: {fileID: 0}
-    m_DisabledSprite: {fileID: 0}
-  m_AnimationTriggers:
-    m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_SelectedTrigger: Selected
-    m_DisabledTrigger: Disabled
-  m_Interactable: 1
-  m_TargetGraphic: {fileID: 1201830622}
-  m_OnClick:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1497147311}
-        m_TargetAssemblyTypeName: Question_Manager, Assembly-CSharp
-        m_MethodName: Restart
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
---- !u!114 &1201830622
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1201830619}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &1201830623
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1201830619}
-  m_CullTransparentMesh: 1
 --- !u!1 &1266874487
 GameObject:
   m_ObjectHideFlags: 0
@@ -2180,7 +1900,6 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1694414737}
-  - {fileID: 1201830620}
   - {fileID: 1190639765}
   - {fileID: 1173409344}
   m_Father: {fileID: 748306063}
@@ -2706,13 +2425,303 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lang: 0
   qNaDK:
-  - Question: 
-    Answer: []
-    CorrectAnswer: 00000000
-  - Question: 
-    Answer: []
-    CorrectAnswer: 
-  qNaEN: []
+  - Question: " N\xE5r man taler om kvalme og opkastning i forbindelse med medicinsk
+      kr\xE6ftbehandling, n\xE6vnes der 4 typer. Hvilke er disse?"
+    Answer:
+    - 'Akut kvalme og opkastning '
+    - 'Senkvalme og opkastning '
+    - 'Forventningskvalme og opkastning '
+    - "Refrakt\xE6r kvalme og gennembrudskvalme"
+    - "Infektionsudl\xF8st kvalme og opkastning"
+    - "Smerteudl\xF8st kvalme og opkastning"
+    CorrectAnswer: 01000000020000000300000004000000
+  - Question: " Hvorn\xE5r opst\xE5r de forskellige typer kvalme og opkastning i
+      forbindelse med medicinsk kr\xE6ftbehandling?"
+    Answer:
+    - 'Akut kvalme og opkastning: 0-24 timer efter indgift '
+    - "Senkvalme og opkastning: F\xF8r behandling p\xE5begyndes "
+    - 'Senkvalme og opkastning: 24-120 timer efter indgift '
+    - 'Akut kvalme og opkastning: 5-7 dage efter indgift '
+    - 'Forventningskvalme og opkastning: Inden opstart af ny serie'
+    - "Refrakt\xE6r kvalme og gennembrudskvalme: Uventet under og efter behandling
+      p\xE5 trods af antiemetisk profylakse "
+    CorrectAnswer: 01000000030000000500000006000000
+  - Question: " Der findes andre \xE5rsager til kvalme og opkast end medicinsk kr\xE6ftbehandling.
+      N\xE6vn \xE5rsager."
+    Answer:
+    - 'Sygdommens placering '
+    - Elektrolytbalance
+    - 'Stress '
+    - 'Medicin og metastaser '
+    - Overhydrering
+    - 'Sult og dyspepsi '
+    CorrectAnswer: 01000000020000000400000006000000
+  - Question: "Kan du uddybe, hvordan sygdomsplacering, elektrolytbalance og medicin
+      kan for\xE5rsage kvalme og opkast?"
+    Answer:
+    - 'Medicin: Kun antibiotika og smertestillende medicin er relevante'
+    - 'Sygdomsplacering: Relateret til lunger og nyre '
+    - 'Sygdomsplacering: Ofte set ved sygdom i ventrikel, hepar, colon, cerebrum
+      og pancreas '
+    - "Elektrolytbalance: Kan opst\xE5 ved hypercalc\xE6mi og hypermagnesi\xE6mi "
+    - "Elektrolytbalance: Kun relevant ved mangel p\xE5 natrium"
+    - 'Medicin: Eksempler inkluderer morfika, antibiotika og digitalis '
+    CorrectAnswer: 030000000400000006000000
+  - Question: "Der er flere faktorer, der har indflydelse p\xE5 patientens risiko
+      for at f\xE5 kvalme og opkastninger efter medicinsk kr\xE6ftbehandling. N\xE6vn 
+      faktorer."
+    Answer:
+    - "Den medicinske kr\xE6ftbehandlings emetogene potentiale"
+    - "Dosis og kombination af den medicinske kr\xE6ftbehandling"
+    - Kostens indhold af protein
+    - "K\xF8n og alder\t"
+    - "M\xE6ngden af fysisk aktivitet "
+    - "Varighed af den medicinske kr\xE6ftbehandling og h\xF8jt alkoholforbrug "
+    CorrectAnswer: 01000000020000000400000006000000
+  - Question: " Kan du forklare, hvordan alder, k\xF8n og alkoholindtagelse p\xE5virker
+      risikoen for kvalme og opkast?"
+    Answer:
+    - "M\xE6nd med lavt alkoholindtag har h\xF8jere risiko for kvalme"
+    - "Yngre patienter (<55 \xE5r) har st\xF8rre risiko for kvalme."
+    - "Kvinder har st\xF8rre risiko for kvalme end m\xE6nd. "
+    - "Kronisk \xF8get alkoholforbrug neds\xE6tter risikoen for kvalme."
+    - "K\xF8resyge eller kvalme under graviditet \xF8ger risikoen for kvalme under
+      behandling. "
+    - "\xC6ldre patienter (>70 \xE5r) har h\xF8jere risiko for kvalme"
+    CorrectAnswer: 02000000030000000400000005000000
+  - Question: "Kroppen opfatter medicinsk kr\xE6ftbehandling som et giftstof via
+      receptorer, der er f\xF8lsomme for dette. Hvis disse receptorer aktiveres,
+      kan det udl\xF8se kvalme og opkastning. Hvordan fungerer antiemetika inde i
+      kroppen? "
+    Answer:
+    - "Antiemetika stimulerer produktionen af ford\xF8jelsesenzymer for at reducere
+      ubehag "
+    - "Antiemetika h\xE6mmer v\xE6skeophobning i tarmen"
+    - "Antiemetika blokerer receptorer i centralnervesystemet og GI-kanalen, der
+      aktiveres ved medicinsk kr\xE6ftbehandling."
+    - Antiemetika blokerer smertereceptorer i GI-kanalen
+    - "Antiemetika \xF8ger produktionen af mavesyre for at fremme ford\xF8jelsen"
+    - "Antiemetika accelererer tarmens bev\xE6gelser for at forebygge infektion"
+    CorrectAnswer: 03000000
+  - Question: "Hvor mange omr\xE5der i centralnervesystemet (CNS) kan potentielt
+      blive p\xE5virket ved kvalme og opkastning? "
+    Answer:
+    - "2 omr\xE5der"
+    - "3 omr\xE5der "
+    - "4 omr\xE5der"
+    - "6 omr\xE5der"
+    - "8 omr\xE5der"
+    - "10 omr\xE5der"
+    CorrectAnswer: 02000000
+  - Question: " Patienter i medicinsk kr\xE6ftbehandling kan opleve kvalme og opkastning,
+      der fremprovokeres af kendte eller ukendte stimuli. N\xE6vn stimuli."
+    Answer:
+    - 'Lugte '
+    - 'Syn '
+    - 'Lyde '
+    - "Smag af s\xF8de f\xF8devarer"
+    - "Fysisk tr\xE6ning"
+    - "Tidligere erfaring med hospitaler eller medicinsk kr\xE6ftbehandling"
+    CorrectAnswer: 01000000020000000300000006000000
+  - Question: "Reaktionerne p\xE5 disse stimuli stammer fra specifikke steder i kroppen.
+      Hvilke steder kan blive p\xE5virket? "
+    Answer:
+    - "Cortex cerebri \u2013 hjernebarken"
+    - "Nyrerne \u2013 filtrering af affaldsstoffer"
+    - "Det limbiske system \u2013 hvor hukommelse og f\xF8lelseslivet h\xE5ndteres"
+    - "Medulla spinalis \u2013 rygmarven"
+    - "Hypothalamus \u2013 styring af kropslige funktioner"
+    - "Vestibul\xE6rapparatet \u2013 det indre \xF8re "
+    CorrectAnswer: 010000000300000006000000
+  - Question: "Br\xE6kcentret modtager impulser fra KTZ og NTS samt fra gastrointestinalkanalen.
+      Hvor sender br\xE6kcentret sine signaler hen?"
+    Answer:
+    - Esophagus
+    - Ventrikel
+    - 'Diaphragma '
+    - 'Hjertet '
+    - Lunger
+    - 'Abdominalmuskler '
+    CorrectAnswer: 01000000020000000300000006000000
+  - Question: "Hvordan behandles kvalme og opkastning fremkaldt af br\xE6kcentrets
+      signaler?"
+    Answer:
+    - "Styrketr\xE6ning af abdominalmusklerne"
+    - "Brug af v\xE6skeerstatning alene"
+    - Meditation og afslapning alene
+    - "ligheder: Antiemetika, afh\xE6ngigt af behandlingens emetogene risiko, patientens
+      kvalmeanamnese og andre risikofaktorer. "
+    - Indtagelse af sukkerholdige drikke
+    - 'Brug af smertestillende medicin '
+    CorrectAnswer: 04000000
+  - Question: "Medicinsk kr\xE6ftbehandling inddeles i 4 grupper alt efter deres
+      emetogene potentiale. N\xE6vn de 4 grupper."
+    Answer:
+    - 'Minimal emetogen '
+    - 'Lav emetogen '
+    - Moderat emetogen (MEC)
+    - "H\xF8j emetogen (HEC) "
+    - Ekstrem emetogen
+    - 'Mild emetogen '
+    CorrectAnswer: 01000000020000000300000004000000
+  - Question: "Hvad er risikoen (i procent) for at f\xE5 kvalme for hver af de fire
+      grupper af medicinsk kr\xE6ftbehandling? "
+    Answer:
+    - 'Minimal emetogen: 10-20%'
+    - 'Moderat emetogen (MEC): 70-100%'
+    - 'Minimal emetogen: 0-10% '
+    - 'Lav emetogen: 10-30%'
+    - 'Moderat emetogen (MEC): 30-90% '
+    - "H\xF8j emetogen (HEC): 90%"
+    CorrectAnswer: 03000000040000000500000006000000
+  qNaEN:
+  - Question: ' When discussing nausea and vomiting related to medical cancer treatment,
+      four types are mentioned. What are these?'
+    Answer:
+    - Acute nausea and vomiting
+    - Delayed nausea and vomiting
+    - Infection-induced nausea and vomiting
+    - 'Anticipatory nausea and vomiting '
+    - Pain-induced nausea and vomiting
+    - Refractory nausea and breakthrough nausea
+    CorrectAnswer: 01000000020000000400000006000000
+  - Question: ' When do the different types of nausea and vomiting occur in relation
+      to medical cancer treatment? '
+    Answer:
+    - "Acute nausea and vomiting: 0\u201324 hours after administration"
+    - "Delayed nausea and vomiting: 24\u2013120 hours after administration"
+    - 'Delayed nausea and vomiting: Before treatment begins'
+    - "Acute nausea and vomiting: 5\u20137 days after administration"
+    - 'Anticipatory nausea and vomiting: Before starting a new treatment cycle '
+    - 'Refractory nausea and breakthrough nausea: Unexpected during and after treatment
+      despite antiemetic prophylaxis '
+    CorrectAnswer: 01000000020000000500000006000000
+  - Question: 'Can you elaborate on how disease location, electrolyte balance, and
+      medication can cause nausea and vomiting? '
+    Answer:
+    - 'Disease location: Often seen in diseases of the stomach, liver, colon, brain,
+      and pancreas'
+    - 'Electrolyte balance: Only relevant in sodium deficiency'
+    - 'Disease location: Related to lungs and kidneys'
+    - 'Medication: Only antibiotics and painkillers are relevant'
+    - 'Electrolyte balance: Can occur with hypercalcemia and hypermagnesemia'
+    - 'Medication: Examples include morphine, antibiotics, and digitalis '
+    CorrectAnswer: 010000000500000006000000
+  - Question: ' Other than medical cancer treatment, there are additional causes
+      of nausea and vomiting. Name causes.'
+    Answer:
+    - Disease location and electrolyte balance
+    - 'Overhydration '
+    - 'Medication and metastases '
+    - Stress
+    - 'Hunger '
+    - 'Dyspepsia '
+    CorrectAnswer: 01000000030000000500000006000000
+  - Question: " Several factors influence a patient\u2019s risk of experiencing nausea
+      and vomiting after medical cancer treatment. Name  factors."
+    Answer:
+    - 'The emetogenic potential of the medical cancer treatment '
+    - 'Dosage and combination of the medical cancer treatment '
+    - Level of physical activity
+    - Gender and age
+    - The protein content of the diet
+    - 'Duration of the medical cancer treatment and high alcohol consumption '
+    CorrectAnswer: 01000000020000000300000006000000
+  - Question: ' Can you explain how age, gender, and alcohol consumption affect the
+      risk of nausea and vomiting? '
+    Answer:
+    - 'Younger patients (<55 years) have a higher risk of nausea. '
+    - Women have a higher risk of nausea than men.
+    - 'Older patients (>70 years) have a higher risk of nausea '
+    - Chronic high alcohol consumption reduces the risk of nausea.
+    - 'Men with low alcohol consumption have a higher risk of nausea '
+    - 'Motion sickness or nausea during pregnancy increases the risk of nausea during
+      treatment. '
+    CorrectAnswer: 01000000020000000400000006000000
+  - Question: The body perceives medical cancer treatment as a toxin through receptors
+      sensitive to it. Activation of these receptors can trigger nausea and vomiting.
+      How do antiemetics work in the body?
+    Answer:
+    - 'Antiemetics stimulate the production of digestive enzymes to reduce discomfort '
+    - Antiemetics inhibit fluid retention in the intestines
+    - Antiemetics block pain receptors in the GI tract
+    - 'Antiemetics block receptors in the central nervous system and GI tract activated
+      by medical cancer treatment. '
+    - 'Antiemetics increase stomach acid production to promote digestion '
+    - Antiemetics accelerate bowel movements to prevent infection
+    CorrectAnswer: 04000000
+  - Question: ' How many areas in the central nervous system (CNS) can potentially
+      be affected by nausea and vomiting?'
+    Answer:
+    - 2 areas
+    - 3 areas
+    - 4 areas
+    - 6 areas
+    - 8 areas
+    - 10 areas
+    CorrectAnswer: 02000000
+  - Question: ' Patients undergoing medical cancer treatment can experience nausea
+      and vomiting triggered by known or unknown stimuli. Name some of these stimuli.'
+    Answer:
+    - 'Smells '
+    - 'Sights '
+    - Physical exercise
+    - The taste of sweet foods
+    - Sounds
+    - 'Previous experiences with hospitals or medical cancer treatment '
+    CorrectAnswer: 01000000020000000500000006000000
+  - Question: 'The reactions to these stimuli originate from specific locations in
+      the body. What areas can be affected? '
+    Answer:
+    - "Hypothalamus \u2013 regulation of bodily functions"
+    - 'Cerebral cortex '
+    - Spinal cord
+    - "Limbic system \u2013 where memory and emotions are processed"
+    - "Vestibular apparatus \u2013 the inner ear "
+    - "Kidneys \u2013 waste filtration"
+    CorrectAnswer: 020000000400000005000000
+  - Question: 'The vomiting center receives impulses from the CTZ and NTS, as well
+      as from the gastrointestinal tract. Where does the vomiting center send its
+      signals? '
+    Answer:
+    - Esophagus
+    - Stomach
+    - 'Heart '
+    - 'Lungs '
+    - 'Diaphragm '
+    - Abdominal muscles
+    CorrectAnswer: 01000000020000000500000006000000
+  - Question: "How is nausea and vomiting caused by the vomiting center\u2019s signals
+      treated?"
+    Answer:
+    - Strength training of abdominal muscles
+    - Fluid replacement therapy alone
+    - Meditation and relaxation alone
+    - 'Consumption of sugary drinks '
+    - "Antiemetics, depending on the emetogenic risk of the treatment, the patient\u2019s
+      history of nausea, and other risk factors. "
+    - Use of painkillers
+    CorrectAnswer: 05000000
+  - Question: ' Medical cancer treatment is divided into 4 groups based on their
+      emetogenic potential. Name the 4 groups'
+    Answer:
+    - 'Minimal emetogenic '
+    - 'Low emetogenic '
+    - 'Moderate emetogenic (MEC) '
+    - Extreme emetogenic
+    - Mild emetogenic
+    - High emetogenic (HEC)
+    CorrectAnswer: 01000000020000000300000006000000
+  - Question: 'What is the risk (in percentage) of nausea for each of the four groups
+      of medical cancer treatment? '
+    Answer:
+    - "Minimal emetogenic: 0\u201310% "
+    - "Low emetogenic: 10\u201330%"
+    - "Moderate emetogenic (MEC): 30\u201390%"
+    - 'High emetogenic (HEC): 90%'
+    - "Minimal emetogenic: 10\u201320%"
+    - "Moderate emetogenic (MEC): 70\u2013100%"
+    CorrectAnswer: 00000000000000000000000000000000
   options:
   - {fileID: 1684329888}
   - {fileID: 1279645934}
@@ -2973,98 +2982,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1694414736}
   m_CullTransparentMesh: 1
---- !u!1 &1785128579
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1785128582}
-  - component: {fileID: 1785128581}
-  - component: {fileID: 1785128580}
-  m_Layer: 0
-  m_Name: Main Camera
-  m_TagString: MainCamera
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!81 &1785128580
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1785128579}
-  m_Enabled: 1
---- !u!20 &1785128581
-Camera:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1785128579}
-  m_Enabled: 1
-  serializedVersion: 2
-  m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
-  m_projectionMatrixMode: 1
-  m_GateFitMode: 2
-  m_FOVAxisMode: 0
-  m_Iso: 200
-  m_ShutterSpeed: 0.005
-  m_Aperture: 16
-  m_FocusDistance: 10
-  m_FocalLength: 50
-  m_BladeCount: 5
-  m_Curvature: {x: 2, y: 11}
-  m_BarrelClipping: 0.25
-  m_Anamorphism: 0
-  m_SensorSize: {x: 36, y: 24}
-  m_LensShift: {x: 0, y: 0}
-  m_NormalizedViewPortRect:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 1
-    height: 1
-  near clip plane: 0.3
-  far clip plane: 1000
-  field of view: 60
-  orthographic: 1
-  orthographic size: 5
-  m_Depth: -1
-  m_CullingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_RenderingPath: -1
-  m_TargetTexture: {fileID: 0}
-  m_TargetDisplay: 0
-  m_TargetEye: 3
-  m_HDR: 1
-  m_AllowMSAA: 1
-  m_AllowDynamicResolution: 0
-  m_ForceIntoRT: 0
-  m_OcclusionCulling: 1
-  m_StereoConvergence: 10
-  m_StereoSeparation: 0.022
---- !u!4 &1785128582
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1785128579}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1804967931
 GameObject:
   m_ObjectHideFlags: 0
@@ -3869,9 +3786,7 @@ CanvasRenderer:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
-  - {fileID: 1785128582}
   - {fileID: 1301812817}
-  - {fileID: 437808179}
   - {fileID: 1497147310}
   - {fileID: 331535109}
   - {fileID: 748306063}
