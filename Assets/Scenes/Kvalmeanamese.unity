@@ -3617,13 +3617,13 @@ MonoBehaviour:
   - For at reducere risikoen for dehydrering hos alle patienter.
   - "For at hj\xE6lpe patienten med at undg\xE5 alle medicinske bivirkninger."
   answer1WrongEN:
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - To ensure that the patient never experiences nausea again.
+  - To find out which foods the patient does not like.
+  - To diagnose a serious stomach infection.
+  - To plan surgical treatment for nausea.
+  - 'To prevent the patient from developing allergies. '
+  - 'To reduce the risk of dehydration in all patients. '
+  - 'To help the patient avoid all medical side effects. '
   answer2RightDK:
   - "Daglige aktiviteter indskr\xE6nkes"
   - "Risiko for medicinske kr\xE6ftbehandling ikke kan gives"
@@ -3641,13 +3641,13 @@ MonoBehaviour:
   - "Kan f\xE5 en allergisk reaktion over for kr\xE6ftbehandling."
   - "F\xE5r bedre s\xF8vnkvalitet p\xE5 grund af kvalmen."
   answer2WrongEN:
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - 'Permanent immunity to antiemetic treatment. '
+  - 'May develop an increased appetite. '
+  - Hair growth may increase significantly.
+  - Can no longer tolerate fatty foods.
+  - May experience a sudden improvement in physical activity.
+  - 'May have an allergic reaction to cancer treatment. '
+  - 'Has better sleep quality due to nausea. '
   answer3RightDK:
   - "F\xF8r hver behandling"
   - Ved gennembrudskvalme
@@ -3665,13 +3665,13 @@ MonoBehaviour:
   - "N\xE5r behandlingen er afsluttet."
   - Ved hver konsultation, uanset patientens symptomer.
   answer3WrongEN:
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - After each treatment.
+  - At the patient's last treatment.
+  - 'With headaches and dizziness. '
+  - 'When the patient feels thirsty. '
+  - If the patient has a fever.
+  - 'When the treatment is completed. '
+  - 'At each consultation, regardless of the patient''s symptoms. '
   answer4RightDK:
   - "Tidligere behandling med medicinsk kr\xE6ftbehandling"
   - "K\xF8n"
@@ -3697,13 +3697,13 @@ MonoBehaviour:
   - "V\xE6gt"
   - Brug af koffeinholdige drikkevarer.
   answer4WrongEN:
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Blood type.
+  - Height.
+  - Dietary habits with a lot of salt.
+  - 'Previous experiences with sleep disturbances. '
+  - Frequency of exercise.
+  - Weight.
+  - Use of caffeinated beverages.
   answer5RightDK:
   - "Er det mere end 5 dage siden de sidst har f\xE5et behandling"
   - Kvalme intensitet
@@ -3727,13 +3727,13 @@ MonoBehaviour:
   - "Hvilke kosttilskud blev indtaget, og hvorn\xE5r?"
   - Hvor mange timer sov patienten, mens der var symptomer?
   answer5WrongEN:
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Has it been more than 10 days since the patient last experienced nausea?
+  - Duration of nausea in minutes.
+  - 'Time of symptom: Morning or evening.'
+  - Highest number of nausea episodes in one week.
+  - Was the patient able to take a shower during the symptoms?
+  - What supplements were taken, and when?
+  - How many hours did the patient sleep while experiencing symptoms?
   answer6RightDK:
   - Sygdomsudbredning
   - Sygdommens placering
@@ -3767,13 +3767,13 @@ MonoBehaviour:
   - Manglende fysisk aktivitet.
   - "Forkert tandb\xF8rstevalg."
   answer6WrongEN:
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Duration of the illness.
+  - Blood pressure.
+  - Intake of sugary beverages.
+  - Poor sleep habits.
+  - Allergy to certain foods.
+  - Lack of physical activity.
+  - Incorrect choice of toothbrush.
   answer7RightDK:
   - Drikke rigeligt
   - "Let m\xE5ltid f\xF8r behandling"
@@ -3803,13 +3803,13 @@ MonoBehaviour:
   - "Undg\xE5 fysisk aktivitet for at spare energi."
   - "V\xE6re i meget st\xF8jende omgivelser for at fjerne fokus fra kvalmen."
   answer7WrongEN:
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Drink very hot beverages.
+  - Eat a large meal before treatment.
+  - Avoid eating throughout the entire treatment process.
+  - Wear tight and compressive clothing for better support.
+  - Stay away from other people to avoid distraction.
+  - Avoid physical activity to conserve energy.
+  - Be in very noisy surroundings to distract from nausea.
   answer8RightDK:
   - "Forh\xF8jet puls"
   - Hjertebanken
@@ -3833,13 +3833,13 @@ MonoBehaviour:
   - "Langsom og regelm\xE6ssig vejrtr\xE6kning."
   - "R\xF8dme i ansigtet."
   answer8WrongEN:
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Lowered pulse.
+  - Warm and dry skin.
+  - Increased appetite.
+  - Reduced salivation.
+  - Intense feeling of heat in the body.
+  - Slow and regular breathing.
+  - Redness in the face.
   answer9RightDK:
   - "Kold klud p\xE5 panden"
   - "Afsk\xE6rmning og skabe ro omkring patienten"
@@ -3865,13 +3865,13 @@ MonoBehaviour:
   - "Anbefale patienten at undg\xE5 antiemetika, medmindre kvalmen er ekstrem."
   - "Bringe patienten ud til et travlt og aktivt milj\xF8 for distraktion."
   answer9WrongEN:
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Warm cloth on the forehead.
+  - Create a conversation group around the patient for support.
+  - Leave the patient to give them privacy.
+  - Offer the patient sugary beverages like soda.
+  - Close windows and doors to keep the temperature stable.
+  - Recommend the patient avoid antiemetics unless the nausea is extreme.
+  - Take the patient out to a busy and active environment for distraction.
 --- !u!1 &1785128579
 GameObject:
   m_ObjectHideFlags: 0
