@@ -117,6 +117,9 @@ public class AnswerScript : MonoBehaviour
         if (right1.clicked && right2.clicked && right3.clicked)
         {
             qstScript.NextQuestion();
+            right1.clicked = false;
+            right2.clicked = false;
+            right3.clicked = false;
         }
         if (ID != IDManager.GetComponent<IDManagerScript>().id)
         {

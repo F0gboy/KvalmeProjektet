@@ -1,9 +1,9 @@
 using System.Collections.Generic;
 
 [System.Serializable]
-public class QuestionAndAnsvers
+public class QuestionAndAnsvers 
 {
     public string Question;
     public string[] Answer;
-    public List<int> CorrectAnswer;
+    public List<int> CorrectAnswer = new List<int>();
 }
