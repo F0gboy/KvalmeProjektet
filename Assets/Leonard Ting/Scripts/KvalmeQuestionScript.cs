@@ -158,7 +158,7 @@ public class KvalmeQuestionScript : MonoBehaviour
                 }
                 else
                 {
-                    textObj.text = "Hvad kan patienten selv gøre for at lindre kvalme og opkastning?";
+                    textObj.text = "Which physical symptoms are seen in nausea and vomiting?";
                 }
                 break;
             case 9:
