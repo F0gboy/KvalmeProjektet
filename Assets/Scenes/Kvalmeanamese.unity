@@ -3609,13 +3609,13 @@ MonoBehaviour:
   - To ensure the best possible antiemetic treatment is given.
   - To identify any patient-related risk factors.
   answer1WrongDK:
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - For at sikre, at patienten aldrig oplever kvalme igen.
+  - "For at finde ud af, hvilke f\xF8devarer patienten ikke kan lide."
+  - For at diagnosticere en alvorlig maveinfektion.
+  - "For at planl\xE6gge kirurgisk behandling af kvalmen."
+  - For at forhindre patienten i at udvikle allergi.
+  - For at reducere risikoen for dehydrering hos alle patienter.
+  - "For at hj\xE6lpe patienten med at undg\xE5 alle medicinske bivirkninger."
   answer1WrongEN:
   - 
   - 
@@ -3633,13 +3633,13 @@ MonoBehaviour:
   - Risk that the medical cancer treatment cannot be administered.
   - Quality of life may deteriorate.
   answer2WrongDK:
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Permanent immun over for antiemetisk behandling.
+  - "Kan udvikle en \xF8get appetit."
+  - "H\xE5rv\xE6kst kan \xF8ges markant."
+  - "Kan ikke l\xE6ngere t\xE5le fedtholdig mad."
+  - Kan opleve en pludselig forbedring i fysisk aktivitet.
+  - "Kan f\xE5 en allergisk reaktion over for kr\xE6ftbehandling."
+  - "F\xE5r bedre s\xF8vnkvalitet p\xE5 grund af kvalmen."
   answer2WrongEN:
   - 
   - 
@@ -3657,8 +3657,8 @@ MonoBehaviour:
   - In case of breakthrough nausea
   - In case of vomiting
   answer3WrongDK:
-  - 
-  - 
+  - Efter hver behandling.
+  - Ved patientens sidste behandling.
   - 
   - 
   - 
