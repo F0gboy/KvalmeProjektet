@@ -3714,7 +3714,6 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1373027260}
-  - {fileID: 726442156}
   - {fileID: 1754724126}
   - {fileID: 1744579613}
   - {fileID: 1266726165}
@@ -3723,6 +3722,7 @@ RectTransform:
   - {fileID: 514952280}
   - {fileID: 1848793836}
   - {fileID: 1037907000}
+  - {fileID: 726442156}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -4213,7 +4213,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4047424346328004306, guid: bdf51c98b68e48b498c60c0568b0e647, type: 3}
       propertyPath: m_fontSize
-      value: 36
+      value: 50.2
       objectReference: {fileID: 0}
     - target: {fileID: 4047424346328004306, guid: bdf51c98b68e48b498c60c0568b0e647, type: 3}
       propertyPath: m_enableAutoSizing
