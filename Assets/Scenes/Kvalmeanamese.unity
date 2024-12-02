@@ -3659,11 +3659,11 @@ MonoBehaviour:
   answer3WrongDK:
   - Efter hver behandling.
   - Ved patientens sidste behandling.
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Ved hovedpine og svimmelhed.
+  - "N\xE5r patienten f\xF8ler sig t\xF8rstig."
+  - Hvis patienten har feber.
+  - "N\xE5r behandlingen er afsluttet."
+  - Ved hver konsultation, uanset patientens symptomer.
   answer3WrongEN:
   - 
   - 
@@ -3689,13 +3689,13 @@ MonoBehaviour:
   - Alcohol
   - Previous experience with nausea
   answer4WrongDK:
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Blodtype.
+  - "H\xF8jde."
+  - Kostvaner med meget salt.
+  - "Tidligere oplevelser med s\xF8vnforstyrrelser."
+  - Hyppighed af motion.
+  - "V\xE6gt"
+  - Brug af koffeinholdige drikkevarer.
   answer4WrongEN:
   - 
   - 
@@ -3719,13 +3719,13 @@ MonoBehaviour:
   - Could the patient eat and drink while experiencing symptoms?
   - Which antiemetics were taken and when?
   answer5WrongDK:
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - "Er det mere end 10 dage siden, patienten sidst har v\xE6ret uden kvalme?"
+  - Kvalmeens varighed i minutter.
+  - 'Tidspunkt for symptom: Morgen eller aften.'
+  - "H\xF8jeste antal kvalmeepisoder i en uge."
+  - Var patienten i stand til at tage bad under symptomerne?
+  - "Hvilke kosttilskud blev indtaget, og hvorn\xE5r?"
+  - Hvor mange timer sov patienten, mens der var symptomer?
   answer5WrongEN:
   - 
   - 
@@ -3759,13 +3759,13 @@ MonoBehaviour:
   - Constipation
   - Reaction to radiation therapy
   answer6WrongDK:
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Sygdommens varighed.
+  - Blodtryk.
+  - Indtag af sukkerholdige drikkevarer.
+  - "D\xE5rlige s\xF8vnvaner."
+  - "Allergi over for bestemte f\xF8devarer."
+  - Manglende fysisk aktivitet.
+  - "Forkert tandb\xF8rstevalg."
   answer6WrongEN:
   - 
   - 
@@ -3795,13 +3795,13 @@ MonoBehaviour:
   - Calm surroundings
   - Presence of the nurse can reduce anxiety
   answer7WrongDK:
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Drikke meget varme drikke.
+  - "Spise et stort m\xE5ltid f\xF8r behandling."
+  - "Undg\xE5 at spise under hele behandlingsforl\xF8bet."
+  - "B\xE6re stramt og komprimerende t\xF8j for bedre st\xF8tte."
+  - "Holde sig v\xE6k fra andre mennesker for at undg\xE5 distraktion."
+  - "Undg\xE5 fysisk aktivitet for at spare energi."
+  - "V\xE6re i meget st\xF8jende omgivelser for at fjerne fokus fra kvalmen."
   answer7WrongEN:
   - 
   - 
@@ -3825,13 +3825,13 @@ MonoBehaviour:
   - Increased saliva secretion
   - Aversion to food
   answer8WrongDK:
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - "S\xE6nket puls."
+  - "Varm og t\xF8r hud."
+  - "\xD8get appetit."
+  - Mindske spytsekretion.
+  - Intens varmefornemmelse i kroppen.
+  - "Langsom og regelm\xE6ssig vejrtr\xE6kning."
+  - "R\xF8dme i ansigtet."
   answer8WrongEN:
   - 
   - 
@@ -3857,13 +3857,13 @@ MonoBehaviour:
   - Fresh air
   - Possibly give pn antiemetics
   answer9WrongDK:
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - "Varm klud p\xE5 panden."
+  - "Skabe en samtalegruppe omkring patienten for st\xF8tte."
+  - Forlade patienten for at give dem privatliv
+  - Tilbyde patienten sukkerholdige drikkevarer som sodavand.
+  - "Lukke vinduer og d\xF8re for at holde temperaturen stabil."
+  - "Anbefale patienten at undg\xE5 antiemetika, medmindre kvalmen er ekstrem."
+  - "Bringe patienten ud til et travlt og aktivt milj\xF8 for distraktion."
   answer9WrongEN:
   - 
   - 
