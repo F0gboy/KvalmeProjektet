@@ -13,11 +13,14 @@ public class QuizSystem : MonoBehaviour
 
     [SerializeField] private List<string> RightAnswersDK = new List<string>();
     [SerializeField] private List<string> RightAnswersEN = new List<string>();
-    
 
+    public static int RightAnswersCount;
+    public static int WrongAnswersCount;
+    public static int GuessCount;
+
+    public GameObject NextSceneButton;
     public List<string> RightAnswers = new List<string>();
     private List<string> RightAnswersCopy = new List<string>();
-
 
     [SerializeField] private List<string> WrongAnswersDK = new List<string>();
     [SerializeField] private List<string> WrongAnswersEN = new List<string>();
@@ -34,8 +37,6 @@ public class QuizSystem : MonoBehaviour
 
     void Start()
     {
-
-
         GameObject temp = GameObject.FindGameObjectWithTag("Language");
         if (temp.GetComponent<LanguageScript>().langNum == 0) { lang = true; }
 
@@ -67,6 +68,10 @@ public class QuizSystem : MonoBehaviour
 
     void CheckAnswers()
     {
+        NextSceneButton.SetActive(true);
+
+        GuessCount++;
+
         if (ChosenButtons.Count > 0 && ChosenButtons.Count == Guesses)
         {
             foreach (var answer in ChosenButtons)
@@ -77,12 +82,15 @@ public class QuizSystem : MonoBehaviour
                 {
                     answer.image.color = Color.green;
                     Correct = true;
+                    RightAnswersCount++;
                 }
                 else
                 {
                     answer.image.color = Color.red;
 
                     Correct = false;
+
+                    WrongAnswersCount++;
                 }
             }
 
@@ -129,6 +137,12 @@ public class QuizSystem : MonoBehaviour
 
             TMP.text = tempText;
         }
+    }
+
+    public void ResetGameObjects()
+    {
+        ChosenButtons.Clear();
+
     }
 
     void buttonClicked(Button currentButton)
