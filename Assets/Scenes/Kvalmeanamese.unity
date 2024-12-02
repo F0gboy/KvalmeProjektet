@@ -3616,13 +3616,7 @@ MonoBehaviour:
   - 
   - 
   - 
-  - 
-  - 
-  - 
   answer1WrongEN:
-  - 
-  - 
-  - 
   - 
   - 
   - 
@@ -3646,13 +3640,7 @@ MonoBehaviour:
   - 
   - 
   - 
-  - 
-  - 
-  - 
   answer2WrongEN:
-  - 
-  - 
-  - 
   - 
   - 
   - 
@@ -3662,10 +3650,12 @@ MonoBehaviour:
   - 
   answer3RightDK:
   - "F\xF8r hver behandling"
-  - Ved gennembrudskvalme eller -opkastning
+  - Ved gennembrudskvalme
+  - Ved opkastning
   answer3RightEN:
   - Before each treatment
-  - In case of breakthrough nausea or vomiting
+  - In case of breakthrough nausea
+  - In case of vomiting
   answer3WrongDK:
   - 
   - 
@@ -3674,13 +3664,7 @@ MonoBehaviour:
   - 
   - 
   - 
-  - 
-  - 
-  - 
   answer3WrongEN:
-  - 
-  - 
-  - 
   - 
   - 
   - 
@@ -3712,13 +3696,7 @@ MonoBehaviour:
   - 
   - 
   - 
-  - 
-  - 
-  - 
   answer4WrongEN:
-  - 
-  - 
-  - 
   - 
   - 
   - 
@@ -3748,13 +3726,7 @@ MonoBehaviour:
   - 
   - 
   - 
-  - 
-  - 
-  - 
   answer5WrongEN:
-  - 
-  - 
-  - 
   - 
   - 
   - 
@@ -3794,13 +3766,7 @@ MonoBehaviour:
   - 
   - 
   - 
-  - 
-  - 
-  - 
   answer6WrongEN:
-  - 
-  - 
-  - 
   - 
   - 
   - 
@@ -3836,13 +3802,7 @@ MonoBehaviour:
   - 
   - 
   - 
-  - 
-  - 
-  - 
   answer7WrongEN:
-  - 
-  - 
-  - 
   - 
   - 
   - 
@@ -3872,13 +3832,7 @@ MonoBehaviour:
   - 
   - 
   - 
-  - 
-  - 
-  - 
   answer8WrongEN:
-  - 
-  - 
-  - 
   - 
   - 
   - 
@@ -3910,13 +3864,7 @@ MonoBehaviour:
   - 
   - 
   - 
-  - 
-  - 
-  - 
   answer9WrongEN:
-  - 
-  - 
-  - 
   - 
   - 
   - 
