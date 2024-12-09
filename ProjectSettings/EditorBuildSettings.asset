@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 16b4ae52f2234e94bbe2c0c5d73165d3
+  - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
@@ -23,4 +26,31 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Kvalmeanamese.unity
     guid: f081b3a113b4bd64db6ca77ee123a3fc
+  - enabled: 1
+    path: Assets/Jasper Ting/Scenes/Case1.unity
+    guid: c606b51997b5a5b4daf8fede4f0975d6
+  - enabled: 1
+    path: Assets/Jasper Ting/Scenes/Case2.unity
+    guid: 2b5f0d16d1c5c564a9571aac30430de2
+  - enabled: 1
+    path: Assets/Jasper Ting/Scenes/Case3.unity
+    guid: 85c347c0f934b0c44a39b4be2b58272d
+  - enabled: 1
+    path: Assets/Jasper Ting/Scenes/Case4.unity
+    guid: 84b8986e347791a44ae50cf974fe79df
+  - enabled: 1
+    path: Assets/Jasper Ting/Scenes/Case5.unity
+    guid: 64a59eb8c9657ed4cb0df9f54522626b
+  - enabled: 1
+    path: Assets/Jasper Ting/Scenes/Case6.unity
+    guid: a19dbe3a5db7d534f960b0be171485e7
+  - enabled: 1
+    path: Assets/Jasper Ting/Scenes/Case7.unity
+    guid: 960f20caf58f7ff4aaf8f722213a2b44
+  - enabled: 1
+    path: Assets/Jasper Ting/Scenes/Case8.unity
+    guid: fbb96f950d70a694499cc913daf3a40c
+  - enabled: 1
+    path: Assets/Jasper Ting/Scenes/StatsScene.unity
+    guid: b8b129da1c428fb44a881d20703c7ab5
   m_configObjects: {}

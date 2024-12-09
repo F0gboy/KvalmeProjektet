@@ -1,15 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
-using static UnityEditor.PlayerSettings;
+//using static UnityEditor.PlayerSettings;
 
 public class Statistic_ManagerPatofisiologi : MonoBehaviour
 {
     public bool lang;
 
-    public Text correctAnswerText;
-    public Object[] buttons;
+    public TMP_Text correctAnswerText;
     public int CorrectAnswers { get;  set; }
     public int WrongAnswer { get;  set; }
     // Start is called before the first frame update
@@ -23,25 +23,25 @@ public class Statistic_ManagerPatofisiologi : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
-    }
-    public void Statistic()
-    {
-        if (correctAnswerText != null) 
-        
+        if (correctAnswerText != null)
+
         {
             if (lang)
             {
-                correctAnswerText.transform.GetComponent<Text>().text = $"Du har {CorrectAnswers} rigtige svar og {WrongAnswer} forkerte svar ";
+                correctAnswerText.text = $"Du har {CorrectAnswers} rigtige svar og {WrongAnswer} forkerte svar ";
             }
             else
             {
-                correctAnswerText.transform.GetComponent<Text>().text = $"You have {CorrectAnswers} correct and {WrongAnswer} wrong answers ";
+                correctAnswerText.text = $"You have {CorrectAnswers} correct and {WrongAnswer} wrong answers ";
             }
 
 
 
-            }
+        }
+    }
+    public void Statistic()
+    {
+        
         
     }
 }
