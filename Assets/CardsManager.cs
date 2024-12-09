@@ -92,18 +92,18 @@ public class CardsManager : MonoBehaviour
                 {
                     
                     Category.text = "Patofysiologi 1";
-                    Question.text = "Når man taler om kvalme og opkastning i forbindelse med medicinsk kræftbehandling, taler man om 4 typer nævn disse?";
+                    Question.text = "Når man taler om kvalme og opkastning i forbindelse med medicinsk kræftbehandling, taler man om 4 typer. Nævn disse?";
                     BonusQuestion.text = "Hvornår i forløbet opstår de 4 typer?";
                     Answer.text = "• Akut kvalme og opkastning • Senkvalme og opkastning • Forventnings kvalme og opkastning • Refraktær kvalme og gennembrudskvalme";
-                    BonusAnswer.text = "• Akut kvalme og opkastning opstår 0-24 timer efter indgift • Senkvalme og opkastning  opstår 24-120 timer efter indgift • Forventnings kvalme og opkastning opstår inden opstart af ny serie • Refraktær kvalme og gennembrudskvalme opstår uventet under og efter behandling på trods af antiemetisk profylakse";
+                    BonusAnswer.text = "<b>• Akut kvalme og opkastning</b> opstår 0-24 timer efter indgift <b>• Senkvalme og opkastning</b> opstår 24-120 timer efter indgift <b>• Forventnings kvalme og opkastning</b> opstår inden opstart af ny serie <b>• Refraktær kvalme og gennembrudskvalme</b> opstår uventet under og efter behandling på trods af antiemetisk profylakse";
                 }
                 else
                 {
                     Category.text = "Pathophysiology 1";
-                    Question.text = "When discussing nausea and vomiting in connection with medical cancer treatment, four types are mentioned. \r\nName these?";
+                    Question.text = "When discussing nausea and vomiting in connection with medical cancer treatment, four types are mentioned. Name these?";
                     BonusQuestion.text = "When do the 4 types occur in the course?";
                     Answer.text = "• Acute nausea and vomiting • Delayed nausea and vomiting • Anticipatory nausea and vomiting • Refractory nausea and breakthrough nausea";
-                    BonusAnswer.text = "• Acute nausea and vomiting occurs 0-24 hours after administration • Delayed nausea and vomiting occurs 24-120 hours after administration • Anticipatory nausea and vomiting occurs before the start of a new series • Refractory nausea and breakthrough nausea occurs unexpectedly during and after treatment despite antiemetic prophylaxis";
+                    BonusAnswer.text = "<b>• Acute nausea and vomiting</b> occurs 0-24 hours after administration <b>• Delayed nausea and vomiting</b> occurs 24-120 hours after administration <b>• Anticipatory nausea and vomiting</b> occurs before the start of a new series <b>• Refractory nausea and breakthrough nausea</b> occurs unexpectedly during and after treatment despite antiemetic prophylaxis";
                 }
                 break;
             case 2:
@@ -155,7 +155,7 @@ public class CardsManager : MonoBehaviour
                 {
 
                     Category.text = "Patofysiologi 4";
-                    Question.text = "Kroppen opfatter medicinsk kræftbehandling som et giftstofvia receptorer følsomme for dette. Hvis disse receptorer bliver aktiveret kan det udløse kvalme/opkastning. Hvordan fungerer antiemetika inde i kroppen? ";
+                    Question.text = "Kroppen opfatter medicinsk kræftbehandling som et giftstof via receptorer følsomme for dette. Hvis disse receptorer bliver aktiveret kan det udløse kvalme/opkastning. Hvordan fungerer antiemetika inde i kroppen? ";
                     BonusQuestion.text = " Hvor mange områder kan potentielt blive påvirket i CNS?";
                     Answer.text = "Antiemetika fungerer ved at blokere receptorer i centralnervesystemet og i GI kanalen der bliver aktiveret ved indgift af medicinsk kræftbehandling.";
                     BonusAnswer.text = "3 områder kan potentielt blive påvirket: De tre områder hedder • Kemoreceptortriggerzonen (KTZ) • Nucleus tractus solitarius (NTS) • Brækcentret (BC)";
@@ -199,7 +199,7 @@ public class CardsManager : MonoBehaviour
                     Category.text = "Patofysiologi 6";
                     Question.text = "Brækcentret modtager impulser fra KTZ og NTS samt fra gastrointestinalkanalen, hvor sender brækcenteret sine signaler hen?";
                     BonusQuestion.text = "Hvordan behandles dette?";
-                    Answer.text = " • Esophagus\r\n • Ventrikel\r\n • Diaphragma\r\n • Abdominalmuskler ";
+                    Answer.text = "Brækcenteret fremkalder kvalme og opkastning ved at sende signaler via efferente nervebaner til:\r\n• Esophagus • Ventrikel • Diaphragma • Abdominalmuskler ";
                     BonusAnswer.text = "Antiemetika, alt efter behandlingens emetogene risiko, patientens kvalmeanamnese samt andre risikofaktorer.";
                 }
                 else
@@ -207,7 +207,7 @@ public class CardsManager : MonoBehaviour
                     Category.text = "Pathophysiology 6";
                     Question.text = "The vomiting center receives impulses from KTZ and NTS as well as from the gastrointestinal tract. Where does the vomiting center send its signals?";
                     BonusQuestion.text = "How is this treated?";
-                    Answer.text = "The vomiting center induces nausea and vomiting by sending signals via efferent nerve pathways to:\r\n• Esophagus\r\n• Stomach\r\n• Diaphragm\r\n• Abdominal muscles";
+                    Answer.text = "The vomiting center induces nausea and vomiting by sending signals via efferent nerve pathways to:\r\n• Esophagus • Stomach • Diaphragm • Abdominal muscles";
                     BonusAnswer.text = "Antiemetics, depending on the emetogenic risk of the treatment, the patient's nausea history, and other risk factors.";
                 }
                 break;
@@ -220,7 +220,7 @@ public class CardsManager : MonoBehaviour
                     Category.text = "Patofysiologi 7";
                     Question.text = "Medicinsk kræftbehandling inddeles i 4 grupper alt efter deres emotogene potentiale nævn de 4 grupper? ";
                     BonusQuestion.text = "Kan du nævne, for hver gruppe, hvor stor en risiko der er for at få kvalme (i %)";
-                    Answer.text = "• Minimal emetogen\r\n• Lav emetogen\r\n• Moderat emetogen (MEC)\r\n• Høj emetogen (HEC)";
+                    Answer.text = "• Minimal emetogen • Lav emetogen • Moderat emetogen (MEC) • Høj emetogen (HEC)";
                     BonusAnswer.text = "• Minimal emetogen: 0-10% • Lav emetogen: 10-30% • Moderat emetogen (MEC): 30-90% • Høj emetogen (HEC): 90%";
                 }
                 else
@@ -228,7 +228,7 @@ public class CardsManager : MonoBehaviour
                     Category.text = "Pathophysiology 7";
                     Question.text = "Medical cancer treatment is divided into 4 groups based on their emetogenic potential. Name the 4 groups?";
                     BonusQuestion.text = "Can you mention, for each group, the risk of experiencing nausea (in %)?";
-                    Answer.text = "• Minimal emetogenic\r\n• Low emetogenic\r\n• Moderate emetogenic (MEC)\r\n• High emetogenic (HEC)";
+                    Answer.text = "• Minimal emetogenic • Low emetogenic • Moderate emetogenic (MEC) • High emetogenic (HEC)";
                     BonusAnswer.text = "Risk in percentages • Minimal emetogenic: 0-10% • Low emetogenic: 10-30% • Moderate emetogenic (MEC): 30-90% • High emetogenic (HEC): 90%";
                 }
                 break;
@@ -241,7 +241,7 @@ public class CardsManager : MonoBehaviour
                     Category.text = "Farmakologi 1";
                     Question.text = "Hvilken medicin kan anvendes mod forventningskvalme? ";
                     BonusQuestion.text = "Hvornår skal patienten indtage den?";
-                    Answer.text = "Lorazepam – 1 mg ";
+                    Answer.text = "Lorazepam";
                     BonusAnswer.text = "Lorazepam indtages til natten dagen før- og morgenen før behandling med medicinsk kræftbehandling.";
                 }
                 else
@@ -249,7 +249,7 @@ public class CardsManager : MonoBehaviour
                     Category.text = "Pharmacology 1";
                     Question.text = "Which medication can be used for anticipatory nausea?";
                     BonusQuestion.text = "When should the patient take it?";
-                    Answer.text = "Lorazepam – 1 mg";
+                    Answer.text = "Lorazepam";
                     BonusAnswer.text = "Lorazepam is taken the night before and the morning before treatment with medical cancer therapy.";
                 }
                 break;
@@ -284,7 +284,7 @@ public class CardsManager : MonoBehaviour
                     Question.text = "Hvilke 5 typer af antiemetika findes der?";
                     BonusQuestion.text = "Kan du nævne præparater der tilhører de forskellige grupper?";
                     Answer.text = "• Dopaminreceptor-antagonister • Serotoninreceptor-antagonister • Neurokininreceptor-antagonister • Multireceptor-antagonister • Kortikosteroider ";
-                    BonusAnswer.text = "• Dopaminreceptor-antagonister: Domperidon, Metopimazin, Metoclopramid • Serotoninreceptor-antagonister: Ondansetron, Palonosetron, Granisetron • Neurokininreceptor-antagonister: Aprepitant, Netupitant • Multireceptor-antagonister: Olanzapin • Kortikosteroider: Prednisolon, Methylprednisolon, Dexamethason";
+                    BonusAnswer.text = "<b>• Dopaminreceptor-antagonister:</b> Domperidon, Metopimazin, Metoclopramid <b>• Serotoninreceptor-antagonister:</b> Ondansetron, Palonosetron, Granisetron <b>• Neurokininreceptor-antagonister:</b> Aprepitant, Netupitant <b>• Multireceptor-antagonister:</b> Olanzapin <b>• Kortikosteroider:</b> Prednisolon, Methylprednisolon, Dexamethason";
                 }
                 else
                 {
@@ -408,7 +408,7 @@ public class CardsManager : MonoBehaviour
                     Category.text = "Pharmacology 8";
                     Question.text = "What are the most common side effects of Olanzapine?";
                     BonusQuestion.text = "How can it be dispensed?";
-                    Answer.text = "Most common side effects (? 1%)\r\n" +
+                    Answer.text = "Most common side effects (≥ 1%)\r\n" +
                         "• Drowsiness • Weight gain • Eosinophilia • Hyperprolactinemia • Hyperglycemia • Glycosuria • Increased appetite • Dizziness • Orthostatic hypotension • Anticholinergic symptoms";
                     BonusAnswer.text = "• Orally: Can be crushed or suspended in water. Taken without regard to meals\r\n• Dissolvable";
                 }
@@ -455,7 +455,7 @@ public class CardsManager : MonoBehaviour
                     Category.text = "Pharmacology 10";
                     Question.text = "What are the most common side effects of Lorazepam?";
                     BonusQuestion.text = "How can it be dispensed?";
-                    Answer.text = "Most common side effects (? 1%)\r\n" +
+                    Answer.text = "Most common side effects (≥ 1%)\r\n" +
                         "• Fatigue • Drowsiness • Sedation • Weakness • Muscle weakness • Ataxia • Depression • Confusion • Dizziness";
                     BonusAnswer.text = "• Orally: Breakable score, meaning the dose can be divided\r\n• Lorazepam – 1 mg max 1 mg per day";
                 }
@@ -470,7 +470,7 @@ public class CardsManager : MonoBehaviour
                     Question.text = "Hvilke bivirkninger er hyppigst ved Metopimazin?";
                     BonusQuestion.text = "Hvordan kan det dispenseres?";
                     Answer.text = "Hyppigste bivirkninger (≥ 1%)\r\n" +
-                        "• Mundtørhed • Let sedation • Obstipation specielt ved kombination med seroton inantagonister • Ortostatisk hypotension • Svimmelhed • Symptomer på hyperprolaktinæmi (inkl. seksuel dysfunktion) • Urinretention • Ekstrapyrimidale bivirkninger";
+                        "• Mundtørhed • Let sedation • Obstipation specielt ved kombination med serotoninantagonister • Ortostatisk hypotension • Svimmelhed • Symptomer på hyperprolaktinæmi (inkl. seksuel dysfunktion) • Urinretention • Ekstrapyrimidale bivirkninger forekommer meget sjældent.";
                     BonusAnswer.text = "Oralt: Indtages hel, før måltider.\r\n" +
                         "• Moderat- og højemetogen behandling = 30 mg x 4, i 4 dage\r\n• Lavemetogen behandling = 15 mg x 4, i 4 dage";
                 }
@@ -503,7 +503,7 @@ public class CardsManager : MonoBehaviour
                     Category.text = "Pharmacology 12";
                     Question.text = "What are the most common side effects of Domperidone?";
                     BonusQuestion.text = "How can it be dispensed?";
-                    Answer.text = "Most common side effects (? 1%)\r\n" +
+                    Answer.text = "Most common side effects (≥ 1%)\r\n" +
                         "• Agitation • Anxiety • Extrapyramidal symptoms • Nervousness • Somnolence • Dizziness";
                     BonusAnswer.text = "Orally: Can be crushed or suspended in water. Taken before meals.";
                 }
@@ -517,7 +517,7 @@ public class CardsManager : MonoBehaviour
                     Category.text = "Farmakologi 13";
                     Question.text = "Hvilke bivirkninger er hyppigst ved Metoclopramid?";
                     BonusQuestion.text = "Nævn hvordan kan det dispenseres?";
-                    Answer.text = "Hyppigste bivirkninger (? 1%)\r\n" +
+                    Answer.text = "Hyppigste bivirkninger (≥ 1%)\r\n" +
                         "• Døsighed • Kraftesløshed • Diarré • Mundtørhed • Hypotension (især efter i.v. indgift) • Akatisi • Depression • Ekstrapyramidale gener • Parkinsonisme";
                     BonusAnswer.text = "Oralt: Delekærv, det vil sige dosis kan deles";
                 }
@@ -526,7 +526,7 @@ public class CardsManager : MonoBehaviour
                     Category.text = "Pharmacology 13";
                     Question.text = "What are the most common side effects of Metoclopramide?";
                     BonusQuestion.text = "How can it be dispensed?";
-                    Answer.text = "Most common side effects (? 1%)\r\n" +
+                    Answer.text = "Most common side effects (≥ 1%)\r\n" +
                         "• Drowsiness • Weakness • Diarrhea • Dry mouth • Hypotension (especially after i.v. administration) • Akathisia • Depression • Extrapyramidal symptoms • Parkinsonism";
                     BonusAnswer.text = "Orally: Scored tablet, meaning the dose can be divided";
                 }
@@ -791,7 +791,7 @@ public class CardsManager : MonoBehaviour
                     Question.text = "Mette ringer til afdelingen. Hun fortæller at hun har fået medicinsk kræftbehandling og har kastet op siden behandlingsdagen.\r\nHvilke yderligere informationer vil du spørge indtil, hos Mette?";
                     BonusQuestion.text = "Mette får behandling der har moderat-emetogenpotentiale. Ved sidste behandling havde hun svært ved at få drukket og spist, regelmæssigt og tilstrækkeligt. Hvilke tiltag vil du gøre ved kommende behandling?";
                     Answer.text = "• Hvor mange dage er det siden det var sidste behandlingsdag? • Hvornår skal Mette have næste behandling? • Hvilken behandling får Mette? (få viden om det emetogene potentiale) • Hvor mange gange har Mette kastet op og hvornår? • Har Mette taget p.n. antiemetika (compliance)? • Hvor meget væske og mad har Mette fået? • Hvad har Mette selv gjort for at afhjælpe dette?";
-                    BonusAnswer.text = "• Opgradere kvalmebehandling svarende til behandling med høj-emetogenpotentiale • Undervise Mette i brugen af PN og understrege, at tage denne inden kvalmen bliver for voldsom • Undervise i Mette i at få små hyppige måltider, rigelig væske, motion osv. • Lav en kvalmeanamnese for at afdække eventuelle risikofaktorer";
+                    BonusAnswer.text = "• Opgradere kvalmebehandling svarende til behandling med høj-emetogenpotentiale • Undervise Mette i brugen af PN og understrege, at tage denne inden kvalmen bliver for voldsom • Undervise Mette i at få små hyppige måltider, rigelig væske, motion osv. • Lav en kvalmeanamnese for at afdække eventuelle risikofaktorer";
                 }
                 else
                 {
