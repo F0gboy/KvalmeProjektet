@@ -92,7 +92,8 @@ public class Question_Manager : MonoBehaviour
         {
             currentIndexQuestion = Random.Range(0, qNa.Count);
             questionAndAnsvers = qNa[currentIndexQuestion];
-            StartCoroutine(DisplayLine(qNa[currentIndexQuestion].Question));
+            //StartCoroutine(DisplayLine(qNa[currentIndexQuestion].Question));
+            questionPanelText.text= qNa[currentIndexQuestion].Question;
             SetAnswer();
             correctAnswersCount = 0;
         }
@@ -102,16 +103,16 @@ public class Question_Manager : MonoBehaviour
             Statistic_ManagerPatofisiologi.Statistic();
         }
     }
-    private IEnumerator DisplayLine( string line )
-    {
-        questionPanelText.text = "";
+    //private IEnumerator DisplayLine( string line )
+    //{
+    //    questionPanelText.text = "";
 
-        foreach(char letter in line.ToCharArray() )
-        {
-            questionPanelText.text += letter;
-            yield return new WaitForSeconds(typingSpeed);
-        }
-    }
+    //    foreach(char letter in line.ToCharArray() )
+    //    {
+    //        questionPanelText.text += letter;
+    //        yield return new WaitForSeconds(typingSpeed);
+    //    }
+    //}
     private IEnumerator StopAnimation(float seconds)
     {
         yield return new WaitForSeconds(seconds);
