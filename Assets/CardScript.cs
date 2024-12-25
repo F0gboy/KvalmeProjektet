@@ -25,7 +25,7 @@ public class CardScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (transform.localPosition.x > 685) 
+        if (transform.localPosition.x > 800) 
         { 
             transform.localPosition = new Vector3(-700, 0, 0); 
             offScreen = true;
@@ -36,7 +36,7 @@ public class CardScript : MonoBehaviour
         
         if (primary == false && offScreen == false)
         {
-            transform.localPosition = Vector3.Lerp(transform.localPosition, new Vector3(700, 0, 0), Time.deltaTime * speed);
+            transform.localPosition = Vector3.Lerp(transform.localPosition, new Vector3(850, 0, 0), Time.deltaTime * speed);
         }
         if (primary == true && transform.localPosition.x < 0) 
         { 
